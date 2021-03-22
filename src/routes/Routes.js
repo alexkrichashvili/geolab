@@ -7,19 +7,16 @@ import {
       useHistory 
   } 
 from "react-router-dom";
-import Abio from "../screens/alex/Abio";
-import Vbio from "../screens//vakhtang/Vbio";
-import Vphotos from "../screens/vakhtang/Vphotos";
-import Aphotos from "../screens/alex/Aphotos";
 import Header from "../screens/Header";
 import Contact from "../screens/contact/Contact";
-import Projects from "../screens/projects/Projects";
-import Apresse from "../screens/alex/Apresse";
-import Vpresse from "../screens/vakhtang/Vpresse";
-import Vmanuscripts from "../screens/vakhtang/Vmanuscripts";
-import Amanuscripts from "../screens/alex/Amanuscripts";
+import Projects from "../screens/projects-page/Projects";
 import Main from "../screens/Main";
 import Foundation from "../screens/foundation/Foundation";
+import Vakhtang from "../screens/vakhtang/Vakhtang";
+import Alexi from "../screens/alex/Alexi";
+import Content from "../screens/Content";
+import Footer from "../screens/Footer";
+
 
 export default function Routes(){
 
@@ -28,16 +25,10 @@ export default function Routes(){
         <div>
         <Switch>
        <Route path="/main/alexi">
-           <Abio/> 
-           <Aphotos/>
-           <Apresse/>
-           <Amanuscripts/>
+       <Alexi/>
       </Route>
        <Route path="/main/vakhtang">
-           <Vbio/>
-           <Vphotos/>
-           <Vpresse/>
-           <Vmanuscripts/>
+         <Vakhtang/>
        </Route>
        <Route path='/main/foundation'>
          <Foundation/>
@@ -48,8 +39,8 @@ export default function Routes(){
        <Route path="/main/contact">
           <Contact/>
        </Route>
-       <Route path="/main">
-          <Main/>
+       <Route path="/">
+       <Content/>
        </Route>
      </Switch>
         </div>

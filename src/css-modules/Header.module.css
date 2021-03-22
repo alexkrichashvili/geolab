@@ -1,0 +1,30 @@
+.navUl{
+    display: flex;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    width: 1366px;
+    min-width: 100%;
+    position:fixed;
+}
+.navLi{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:  20px;
+}
+.navLi a:hover{
+    cursor: pointer;
+    border: 10px rgb(12, 7, 7);
+}
+
+.logo{
+    width: 127px;
+    height: 46px;
+
+}
+

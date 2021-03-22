@@ -8,6 +8,7 @@ import {
 from "react-router-dom";
 import './App.css';
 import Main from "./screens/Main";
+import Routes from "./routes/Routes";
 
 
 
@@ -15,10 +16,8 @@ import Main from "./screens/Main";
 function App() {
   return (
     <Router>
-<div className="App">
-      
-     <Main/> 
-     
+<div className="App">    
+     <Routes/>    
 </div>
     </Router>
     

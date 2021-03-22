@@ -1,0 +1,31 @@
+.text1, .text2{
+    display: inline-block;
+    margin-top: 20px;
+    width: 506px;
+    height: 104px;
+}
+.title1{
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    
+
+}
+.textWrapper{
+    height: 451px;
+    width: 100%;
+    background-color: #EFEFF6;
+    margin: 30px auto;
+    padding-top: 30px;
+}
+.imgDiv{
+margin: 0 auto;
+}
+.mainImg{
+width: 100%;
+}
+.contentWrapper{
+    padding-top: 80px;
+    margin: 0 auto;
+}
