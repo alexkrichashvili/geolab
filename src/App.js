@@ -7,7 +7,6 @@ import {
 } 
 from "react-router-dom";
 import './App.css';
-import Main from "./screens/Main";
 import Routes from "./routes/Routes";
 
 

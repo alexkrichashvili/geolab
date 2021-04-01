@@ -1,31 +1,169 @@
-.text1, .text2{
-    display: inline-block;
-    margin-top: 20px;
-    width: 506px;
-    height: 104px;
-}
-.title1{
-    display:block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
-    
+/* mission section styles */
+/* mission section styles */
+/* mission section styles */
 
-}
-.textWrapper{
-    height: 451px;
-    width: 100%;
+.section1{  
     background-color: #EFEFF6;
-    margin: 30px auto;
-    padding-top: 30px;
+    margin: 60px  auto 0 auto;   
 }
-.imgDiv{
-margin: 0 auto;
+
+.parrentDiv{
+    max-width: 1022px; 
+    margin:  0 auto;
 }
-.mainImg{
-width: 100%;
-}
-.contentWrapper{
-    padding-top: 80px;
+.flex{
+    display: flex;
     margin: 0 auto;
 }
+
+.title1{
+font-size: 34px;
+padding-top: 34px;
+padding-bottom: 42px;
+
+}
+
+
+.text1, .text2{
+   
+   font-size: 14px;   
+   line-height: 30px;
+ 
+
+}
+
+.text1{
+max-width: 499px;
+padding-right: 32px;
+
+
+
+}
+.text2{
+    max-width: 459px;
+    padding-left: 32px;
+  
+}
+/* learn more */
+.learnmoreDiv{
+padding-bottom: 56px;
+padding-top: 36px;
+transition: all 0.3s linear;
+max-width: 500px;
+
+}
+.arrow{
+    display: inline-block;
+    width: 61.5px;
+    vertical-align: middle;
+    position: relative;
+    right: 47px;
+    left: -47px;
+    top: 0;
+    bottom: 0;
+    transition: all 0.2s linear .1s ;   
+}
+.learnMore{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    position: relative;
+    right: 57px;
+    left: -57px;
+    top: 0px;
+    bottom: 0px;
+    transition: all 0.2s linear ;
+    
+    
+    }
+.learnmoreDiv:hover .arrow{
+ left:23px;   
+ right: 0;
+ top: 0;
+ bottom: 0;
+ 
+}
+.learnmoreDiv:hover .learnMore{
+    left: 10px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.line2{
+    display: inline-block;
+    width: 260px;
+    vertical-align: middle;
+}
+/* learn more */
+
+
+
+/* mission section styles */
+
+
+
+/* projects section */
+
+.projectsTxt{
+    line-height: 30px;
+}
+.section2{  
+    background-color: #EFEFF6;
+      
+}
+/* projects section */
+
+/* banner section */
+
+.bannerSec{
+    margin: 0 auto;
+    padding-top: 80px;
+    
+}
+
+.imgDiv{
+    display: flex;
+    position: relative;
+}
+.alexiImg{
+    width: 50%;
+}
+.h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.vakhtangImg{
+    width: 50%;
+}
+.bnrText{
+position: absolute;
+left: 550px;
+top: 100px;
+
+}
+.bnrLine{
+    width: 1046px;
+}
+
+.infoUl{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.infoLink{
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.infoLink:hover{
+    text-decoration: underline 1px;
+}
+
+/* banner section */
+
+
+

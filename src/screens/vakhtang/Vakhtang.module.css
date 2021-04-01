@@ -1,3 +1,419 @@
-.contentWrapper{
-    padding-top:80px;
+
+/* banner section */
+.bannerSection{
+    padding-top: 80px;
 }
+.vakhtang{
+    width: 50%;
+
+    
+}
+.banner{
+    display: flex;
+}
+.name{
+    font-size: 40px;
+    max-width: 50%;
+    text-align: center;
+    margin-top: 87px;
+
+    
+}
+.line{
+    position: relative;
+    left: 90px;
+}
+/* banner section  */
+
+
+/* bio section */
+
+.bioTxt{
+    line-height: 30px;
+}
+
+.bioSection{  
+    background-color: #EFEFF6;
+    margin-top: 60px;
+  
+}
+.parrentDiv{
+    max-width: 1022px; 
+    margin:  0 auto;
+}
+.title1{
+    font-size: 34px;
+    padding-top: 34px;
+    padding-bottom: 33px;
+
+}
+/* bio section */
+/* bio learn more */
+.learnmoreDiv{
+    padding-bottom: 50px;
+    padding-top: 95px;
+    transition: all 0.3s linear;
+    max-width: 500px;
+
+}
+.arrow{
+    display: inline-block;
+    width: 61.5px;
+    vertical-align: middle;
+    position: relative;
+    right: 47px;
+    left: -47px;
+    top: 0;
+    bottom: 0;
+    transition: all 0.2s linear .1s ;   
+}
+.learnMore{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    position: relative;
+    right: 57px;
+    left: -57px;
+    top: 0px;
+    bottom: 0px;
+    transition: all 0.2s linear ;
+    
+    
+    }
+.learnmoreDiv:hover .arrow{
+    left:23px;   
+    right: 0;
+    top: 0;
+    bottom: 0;
+ 
+}
+.learnmoreDiv:hover .learnMore{
+    left: 10px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.line1{
+    display: inline-block;
+    width: 260px;
+    vertical-align: middle;
+}
+/* bio learn more */
+
+/* photos section */
+.flex{
+    display:flex;
+    justify-content: space-between;
+
+}
+.photos1{
+    margin-bottom: 14px;
+}
+.photos2{
+    margin-top: 14px;
+
+}
+.photoSection{  
+    background-color: #EFEFF6;
+    margin-top: 45px;
+  
+} 
+
+
+
+/* photos section */
+
+/* photos learn more */
+.learnmoreDiv2{
+padding-bottom: 50px;
+padding-top: 60px;
+transition: all 0.3s linear;
+max-width: 500px;
+
+}
+.arrow2{
+display: inline-block;
+width: 61.5px;
+vertical-align: middle;
+position: relative;
+right: 47px;
+left: -47px;
+top: 0;
+bottom: 0;
+transition: all 0.2s linear .1s ;   
+}
+.learnMore2{
+display: inline-block;
+font-size: 16px;
+vertical-align: middle;
+position: relative;
+right: 57px;
+left: -57px;
+top: 0px;
+bottom: 0px;
+transition: all 0.2s linear ;
+
+
+}
+.learnmoreDiv2:hover .arrow2{
+left:23px;   
+right: 0;
+top: 0;
+bottom: 0;
+
+}
+.learnmoreDiv2:hover .learnMore2{
+left: 10px;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+
+
+/* photos learn more */
+
+/* presse section */
+
+.presseTxt{
+line-height: 30px;
+}
+
+.presseSection{  
+background-color: #EFEFF6;
+margin-top: 60px;
+
+}
+.parrentDiv3{
+max-width: 1022px; 
+margin:  0 auto;
+}
+.title3{
+font-size: 34px;
+padding-top: 34px;
+padding-bottom: 33px;
+
+}
+/* presse section */
+/* presse learn more */
+.learnmoreDiv3{
+padding-bottom: 50px;
+padding-top: 95px;
+transition: all 0.3s linear;
+max-width: 500px;
+
+}
+.arrow3{
+display: inline-block;
+width: 61.5px;
+vertical-align: middle;
+position: relative;
+right: 47px;
+left: -47px;
+top: 0;
+bottom: 0;
+transition: all 0.2s linear .1s ;   
+}
+.learnMore3{
+display: inline-block;
+font-size: 16px;
+vertical-align: middle;
+position: relative;
+right: 57px;
+left: -57px;
+top: 0px;
+bottom: 0px;
+transition: all 0.2s linear ;
+
+
+}
+.learnmoreDiv3:hover .arrow3{
+left:23px;   
+right: 0;
+top: 0;
+bottom: 0;
+
+}
+.learnmoreDiv3:hover .learnMore3{
+left: 10px;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+.line3{
+display: inline-block;
+width: 260px;
+vertical-align: middle;
+}
+/* presse learn more */
+
+
+/* manuscripts section */
+
+.manucriptsWrapper{
+display: flex;
+justify-content: space-between;
+}
+
+.manuscriptsSec{  
+background-color: #EFEFF6;
+margin-top: 45px;
+
+}
+.parrentDiv4{
+max-width: 1022px; 
+margin:  0 auto;
+}
+.title4{
+font-size: 34px;
+padding-top: 30px;
+padding-bottom: 35px;
+
+}
+
+/*manucripts  section */
+/*manucripts  learn more */
+.learnmoreDiv4{
+padding-bottom: 50px;
+margin-top: 70px;
+padding-top: 10px;
+transition: all 0.3s linear;
+max-width: 500px;
+
+}
+.arrow4{
+display: inline-block;
+width: 61.5px;
+vertical-align: middle;
+position: relative;
+right: 47px;
+left: -47px;
+top: 0;
+bottom: 0;
+transition: all 0.2s linear .1s ;   
+}
+.learnMore4{
+display: inline-block;
+font-size: 16px;
+vertical-align: middle;
+position: relative;
+right: 57px;
+left: -57px;
+top: 0px;
+bottom: 0px;
+transition: all 0.2s linear ;
+
+
+}
+.learnmoreDiv4:hover .arrow4{
+left:23px;   
+right: 0;
+top: 0;
+bottom: 0;
+
+}
+.learnmoreDiv4:hover .learnMore4{
+left: 10px;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+.line4{
+display: inline-block;
+width: 260px;
+vertical-align: middle;
+}
+/* manucripts learn more */
+
+
+/* audio & video section */
+
+.samplesWrapper{
+display: flex;
+flex-direction: column;
+}
+
+.samplesSec{  
+background-color: #EFEFF6;
+margin-top: 45px;
+
+}
+.parrentDiv5{
+max-width: 1022px; 
+margin:  0 auto;
+}
+.title5{
+font-size: 34px;
+padding-top: 30px;
+padding-bottom: 35px;
+
+}
+.txtWrapper1{
+padding-bottom: 45px;
+}
+.txtWrapper2{
+padding-bottom: 45px;
+}
+.txtWrapper3{
+padding-bottom: 40px;
+}
+.samplesWrapper p{
+padding-top: 15px;
+}
+
+/*maudio & video  section */
+/*audio & video  learn more */
+.learnmoreDiv5{
+padding-bottom: 50px;
+padding-top: 10px;
+transition: all 0.3s linear;
+max-width: 500px;
+
+}
+.arrow5{
+display: inline-block;
+width: 61.5px;
+vertical-align: middle;
+position: relative;
+right: 47px;
+left: -47px;
+top: 0;
+bottom: 0;
+transition: all 0.2s linear .1s ;   
+}
+.learnMore5{
+display: inline-block;
+font-size: 16px;
+vertical-align: middle;
+position: relative;
+right: 57px;
+left: -57px;
+top: 0px;
+bottom: 0px;
+transition: all 0.2s linear ;
+
+
+}
+.learnmoreDiv5:hover .arrow5{
+left:23px;   
+right: 0;
+top: 0;
+bottom: 0;
+
+}
+.learnmoreDiv5:hover .learnMore5{
+left: 10px;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+.line5{
+display: inline-block;
+width: 260px;
+vertical-align: middle;
+}
+/* audio & video learn more */

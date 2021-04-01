@@ -1,6 +1,7 @@
 .navUl{
     display: flex;
-   
+    margin-top: 32px;
+    
 }
 
 .container{
@@ -8,23 +9,47 @@
     justify-content: space-between;
     background-color: white;
     height: 80px;
-    width: 1366px;
-    min-width: 100%;
+    max-width: 1366px;
+    min-width: 100%; 
     position:fixed;
+    z-index: 5;
 }
 .navLi{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top:  20px;
-}
-.navLi a:hover{
-    cursor: pointer;
-    border: 10px rgb(12, 7, 7);
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+      
 }
 
+.navLink{
+    transition: all 0.15s linear ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    font-size: 17px;
+}
+.logodiv{
+    margin-left: 10px;
+    align-self: center;
+   
+}
 .logo{
-    width: 127px;
-    height: 46px;
+    font-size: 34px;
+    transition: all 0.15s linear ;
 
 }
+.logo:hover{
+    border-top: 3px solid black;
+}
+.languages{
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.navLink:hover{
+    border-top: 3px solid black;
+    
+}
+
 
