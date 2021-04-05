@@ -1,9 +1,21 @@
+import Header from "../Header";
+
 export default function Vbio(){
 
 
     return(
         <div>
-            vakhtang biography
+
+
+<Header/>
+
+
+         <div className={styles.nameDiv}>
+             <h1>Vakhtang Matchavariani</h1>
+         </div>
+
+
+         
         </div>
     )
 }

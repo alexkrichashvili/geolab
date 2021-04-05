@@ -94,8 +94,9 @@ max-width: 500px;
     display: inline-block;
     width: 260px;
     vertical-align: middle;
+    
+
 }
-/* learn more */
 
 
 
@@ -139,9 +140,11 @@ max-width: 500px;
     width: 50%;
 }
 .bnrText{
+    height: 50px;
+    width: 40%;
 position: absolute;
-left: 550px;
-top: 100px;
+left: 30%;
+top: 15%;
 
 }
 .bnrLine{

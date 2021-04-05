@@ -1,0 +1,81 @@
+
+.nameDiv{
+    max-width: 1022px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    font-size: 40px;
+
+}
+
+/* portreits section */
+/* portreits section */
+.flex{
+    display:flex;
+    justify-content: space-between;
+
+}
+.portreits1{
+margin-bottom: 18px;
+}
+
+.portreitsSection{  
+    background-color: #EFEFF6;
+} 
+.title1{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 33px;
+    text-decoration: underline;
+
+}
+.parrentDiv{
+    max-width: 1022px; 
+    margin:  0 auto;
+    padding-bottom: 100px;
+}
+.photographerTitle1{
+    padding-bottom: 30px;
+}
+/* portreits section */
+/* portreits section */
+
+
+
+
+/* concertos section */
+/* concertos section */
+.flex{
+    display:flex;
+    justify-content: space-between;
+
+}
+.photos1{
+    margin-bottom: 18px;
+}
+
+.concertosSection{  
+    background-color: #EFEFF6;
+    margin-top: 45px;
+  
+} 
+.title2{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 33px;
+    text-decoration: underline;
+
+}
+.parrentDiv2{
+    max-width: 1022px; 
+    margin:  0 auto;
+    padding-bottom: 100px;
+}
+.photographerTitle2{
+    padding-bottom: 30px;
+}
+
+
+
+/* concertos section */
+/* concertos section */

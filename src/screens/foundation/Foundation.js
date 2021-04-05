@@ -23,100 +23,90 @@ import team3 from "./Rectangle -2@2x.png";
 export default function Foundation(){
 
     return (
-        <div>
-            <Header/>
-             <div className={styles.bannerWrapper}>
-
-
-                 <div className={styles.banner}>
-                          
-                             <img  className={styles.foundation} src={foundation} alt='alexi-foto'/>
-                         
-                                   <div className={styles.name}>
-                                         <h1 >
-                                             Foundation
-                                         </h1>
-                                             <img className={styles.line} src={line} alt="line"/>
-                                   </div>
-                 </div>
-             </div>
+<div>
+    <Header/>
+        <div className={styles.bannerWrapper}>
+            <div className={styles.banner}>                            
+                            <img  className={styles.foundation} src={foundation} alt='alexi-foto'/>                        
+                            <div className={styles.name}>
+                                    <h1>
+                                        Foundation
+                                    </h1>
+                                    <img className={styles.line} src={line} alt="line"/>
+                            </div>
+            </div>
+            </div>
              
 
 
 
 
              <div className={styles.aboutUsSection}>
-
                    <div className={styles.parrentDiv}>
-                             <h1 className={styles.title1}>ABOUT US</h1>
-                                 <div className={styles.aboutTxt} >
+                            <h1 className={styles.title1}>ABOUT US</h1>
+                            <div className={styles.aboutTxt} >
                                  <p>
                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                
                                  </p>
-
-                                 </div>
-
+                            </div>
                    </div>
-            </div>
+             </div>
 
 
 
 
-<div className={styles.photoSection}>
+              <div className={styles.photoSection}>
+                        <div className={styles.parrentDiv}>
+                                   <h1 className={styles.title1}>PHOTOS</h1>
+                                   <div className={`${styles.flex} ${styles.photos1}`}>
+                                                  <img src={photo1} alt='photo1'/>
+                                                  <img src={photo2} alt='photo2'/>
+                                                  <img src={photo3} alt='photo3'/>
+                                                  <img src={photo4} alt='photo4'/>
+                                   </div>
+                                   <div className={`${styles.flex} ${styles.photos2}`}>
+                                                  <img src={photo5} alt='photo5'/>
+                                                  <img src={photo6} alt='photo6'/>
+                                                  <img src={photo7} alt='photo7'/>
+                                                  <img src={photo8} alt='photo8'/>
+                                   </div>
+                        </div>
+                        <div className = {styles.learnmoreDiv}>
+                                   <img className = {styles.line2} src={line2}/>
+                                   <Link className = {styles.learnMore}>LEARN MORE</Link>   
+                                   <img className = {styles.arrow} src={arrow}/>  
+                        </div>
 
-<div className={styles.parrentDiv}>
-          <h1 className={styles.title1}>PHOTOS</h1>
-<div className={`${styles.flex} ${styles.photos1}`}>
-<img src={photo1} alt='photo1'/>
-<img src={photo2} alt='photo2'/>
-<img src={photo3} alt='photo3'/>
-<img src={photo4} alt='photo4'/>
-</div>
-<div className={`${styles.flex} ${styles.photos2}`}>
-<img src={photo5} alt='photo5'/>
-<img src={photo6} alt='photo6'/>
-<img src={photo7} alt='photo7'/>
-<img src={photo8} alt='photo8'/>
-</div>
-</div>
-
-<div className = {styles.learnmoreDiv}>
- <img className = {styles.line2} src={line2}/>
-  <Link className = {styles.learnMore}>LEARN MORE</Link>   
-  <img className = {styles.arrow} src={arrow}/>  
- </div>
-
-</div>
+              </div>
 
 
 
 
-<div className={styles.teamSection}>
-        <div className={styles.teamParrentDiv}>
-                      <h1 className={styles.teamTitle}>ABOUT US</h1>
-                      <div className={styles.teamMember1}>
+              <div className={styles.teamSection}>
+                       <div className={styles.teamParrentDiv}>
+                           <h1 className={styles.teamTitle}>TEAM</h1>
+                           <div className={styles.teamMember1}>
                                    <img className={styles.teamPhoto} src={team1}/>
                                    <div className={styles.teamText}>
                                        <h1 className={styles.memberName}>name lastname</h1>
                                        <p>
-                                       A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
+                                           A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
                                        </p>
                                    </div>
-                      </div>
-                      <div className={styles.teamMember2}>
+                           </div>
+                           <div className={styles.teamMember2}>
                                    <img className={styles.teamPhoto} src={team2}/>
                                    <div className={styles.teamText}>
                                        <h1 className={styles.memberName}>name lastname</h1>
                                        <p>
-                                       A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
+                                           A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
                                        </p>
                                    </div>
-                      </div>
-                      <div className={styles.teamMember3}>
+                           </div>
+                           <div className={styles.teamMember3}>
                                    <img className={styles.teamPhoto}  src={team3}/>
                                    <div className={styles.teamText}>
                                        <h1 className={styles.memberName}>name lastname</h1>
@@ -124,14 +114,14 @@ export default function Foundation(){
                                        A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
                                        </p>
                                    </div>
-                      </div>   
-        </div>   
-</div>
+                           </div>   
+                       </div>   
+           </div>
 
 
 
              
-             <Footer/>
-        </div>
+    <Footer/>
+</div>
     )
 }

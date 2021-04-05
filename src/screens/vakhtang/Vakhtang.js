@@ -19,6 +19,8 @@ import manuscript2 from "../../photos/Match121@2x.png";
 
 
 
+
+
 export default function Vakhtang(){
     return(
         <div>
@@ -98,7 +100,7 @@ export default function Vakhtang(){
 
          <div className = {styles.learnmoreDiv2}>
                                   <img className = {styles.line2} src={line1}/>
-                                  <Link className = {styles.learnMore2}>LEARN MORE</Link>   
+                                  <Link className = {styles.learnMore2} to='/main/vakhtang/photos'  >LEARN MORE</Link>   
                                   <img className = {styles.arrow2} src={arrow}/>  
          </div>
 
@@ -153,38 +155,36 @@ export default function Vakhtang(){
 
 
 
+     <div className={styles.manuscriptsSec}>
 
- <div className={styles.manuscriptsSec}>
-
-<div className={styles.parrentDiv4}>
-            <h1 className={styles.title4}>MANUSCRIPTS</h1>
-<div className={styles.manucriptsWrapper} >
-    <div>
-            <img src={manuscript1}></img>
-            <h2>Name #1</h2>
-            <p>The study of the writing in surviving manuscripts</p>
-    </div>
-    <div>
-            <img src={manuscript2}></img>
-            <h2>Name #2</h2>
-            <p>The study of the writing in surviving manuscripts</p>
-    </div>
-
-</div>
-</div>
+                <div className={styles.parrentDiv4}>
+                <h1 className={styles.title4}>MANUSCRIPTS</h1>
+                         <div className={styles.manucriptsWrapper} >
+                              <div>
+                                   <img src={manuscript1}></img>
+                                   <h2>Name #1</h2>
+                                   <p>The study of the writing in surviving manuscripts</p>
+                              </div>
+                              <div>
+                                   <img src={manuscript2}></img>
+                                   <h2>Name #2</h2>
+                                   <p>The study of the writing in surviving manuscripts</p>
+                              </div>
+                         </div>
+                </div>
 
 
 
 
-<div className = {styles.learnmoreDiv4}>
-             <img className = {styles.line4} src={line1}/>
-             <Link className = {styles.learnMore4}>LEARN MORE</Link>   
-             <img className = {styles.arrow4} src={arrow}/>  
-</div>
+                <div className = {styles.learnmoreDiv4}>
+                       <img className = {styles.line4} src={line1}/>
+                       <Link to="/main/vakhtang/manuscripts" className = {styles.learnMore4}>LEARN MORE</Link>   
+                       <img className = {styles.arrow4} src={arrow}/>  
+                </div>
 
 
 
- </div>
+     </div>
 
 
 

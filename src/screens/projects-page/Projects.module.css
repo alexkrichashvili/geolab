@@ -1,0 +1,67 @@
+
+/* general */
+.headlineDiv{
+    max-width: 1022px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    font-size: 40px;
+    
+}
+
+.parrentDiv{
+    max-width: 1022px; 
+    margin:  0 auto;
+    margin-top: 55px;
+}
+.flex{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.aboutTxt{
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.aboutUsSection{  
+    background-color: #EFEFF6;
+      
+} 
+/* general  */
+
+
+/* concourse 1 */
+.ConcourseName1{
+    font-size: 34px;
+    padding-top: 34px;
+    padding-bottom: 42px;
+
+}
+.applyButton{
+    width: 215px;
+    height: 49px;
+    color: black;
+}
+
+/* concourse 1 */
+
+
+/* concourse 2 */
+.ConcourseName2{
+    font-size: 34px;
+    padding-top: 34px;
+    padding-bottom: 42px;
+}
+.applyButton{
+    width: 215px;
+    height: 49px;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    left: 1000px;
+}
+/* concourse 2 */
+
+
