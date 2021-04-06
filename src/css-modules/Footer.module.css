@@ -1,0 +1,101 @@
+/* general classes */
+.flex{
+    display:flex;
+    margin: 0 auto;
+}
+/* general classes */
+
+/* email classes */
+.email{
+    flex-basis: 430px;
+    height: 200px;
+    background-color: #040F16;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-right: 1px solid #707070;
+}
+.emailWrapper{
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+.emailAddress{
+    color: #FBFBFF;
+    opacity: 80%;
+    font-size: 17px;
+    padding-top: 35px;
+}
+.emailIcon{
+    border-radius: 50%;
+    
+}
+.emailIcon:hover{
+    border: 1px solid  white ;
+}
+/* email  classes */
+
+
+/* phone  classes */
+.phone{
+    flex-basis: 255px;
+    height: 200px;
+    background-color: #040F16;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-right: 1px solid #707070;
+    
+}
+.phoneWrapper{
+
+}
+.phoneIcon{
+
+}
+.phoneNumber{
+
+}
+/* phone classes */
+
+/* location classes */
+.location{
+    flex-basis: 252px;
+    height: 200px;
+    background-color: #040F16;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-right: 1px solid #707070;
+}
+.locationWrapper{
+
+}
+.locationIcon{
+
+}
+.locationTxt{
+
+}
+/* location classes */
+
+/* social media classes */
+.socialMedia{
+    flex-basis: 432px;
+    height: 200px;
+    background-color:#262629;
+    flex-grow: 1;
+    flex-shrink: 1;  
+}
+.socialMediaWrapper{
+
+}
+.youtubeIcon{
+
+}
+.fbIcon{
+
+}
+.socialMediaTxt{
+    
+}
+
+/* social media classes */
