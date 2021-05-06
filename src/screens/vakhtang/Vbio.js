@@ -1,4 +1,4 @@
-import Header from "../Header";
+import styles from "./Vbio.module.css";
 
 export default function Vbio(){
 
@@ -6,8 +6,6 @@ export default function Vbio(){
     return(
         <div>
 
-
-<Header/>
 
 
          <div className={styles.nameDiv}>

@@ -1,20 +1,16 @@
 import styles from '../css-modules/Content.module.css';
 import vakhtang from '../photos/Group 185@2x.png';
 import alexi from '../photos/photo_alexi@2x.png';
-import { Link, Route, Switch, useHistory } from "react-router-dom";
-import Header from './Header';
-import Footer from './Footer';
-import line2 from '../photos/Line 11@2x.png'
-import line3 from '../photos/Line 9@2x.png'
-import arrow from  '../photos/Group 44@2x.png'
+import { Link } from "react-router-dom";
+import line2 from '../photos/Line 11@2x.png';
+import line3 from '../photos/Line 9@2x.png';
+import arrow from  '../photos/Group 44@2x.png';
 
 
 export default function Content(){
      return(
          <div>
 
-
-             <Header/>
              
              
              <div className={styles.bannerSec}>
@@ -23,10 +19,11 @@ export default function Content(){
                       <img className={styles.vakhtangImg} src={vakhtang}/>
                  </div>
                  <div className={styles.bnrText}>
-                 <h1 className={styles.h1}>Alexi And Vakhtang Matchavariani</h1>
-                 <h1 className={styles.h1}>Charity Foundation</h1>
+                      <h1 className={styles.h1}>Alexi And Vakhtang Matchavariani</h1>
+                      <h1 className={styles.h1}>Charity Foundation</h1>
+                      <img className={styles.bnrLine} src={line3}/>
                  </div>
-                 <img className={styles.bnrLine} src={line3}/>
+                 
              </div>
             
 
@@ -104,19 +101,13 @@ export default function Content(){
 
 </div>
 <div className = {styles.learnmoreDiv}>
-<img className = {styles.line2} src={line2}/>
- <Link className = {styles.learnMore}>LEARN MORE</Link>   
+          <img className = {styles.line2} src={line2}/>
+          <Link className = {styles.learnMore}>LEARN MORE</Link>   
  <img className = {styles.arrow} src={arrow}/>  
 </div>
     
  </div>
 
-
-
-
-
-
-         <Footer/>
          
          </div>
         

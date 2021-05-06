@@ -18,7 +18,7 @@ export default function Footer(){
                    </div>
                </div>
                <div className={styles.phone}>
-                   <div classname={styles.phoneWrapper}>
+                   <div className={styles.phoneWrapper}>
                        <img className={styles.phoneIcon} src={phoneIcon} alt='phoneIcon'/>
                        <p className={styles.phoneNumber}>5425435644</p>
                    </div>
@@ -31,8 +31,24 @@ export default function Footer(){
                </div>
                <div className={styles.socialMedia}>
                    <div className={styles.socialMediaWrapper}>
-                       <img className={styles.youtubeIcon} src={youtubeIcon} alt='youtubeIcon'/>
-                       <img className={styles.fbIcon} src={fbIcon} alt='fbIcon'/>
+                       <a
+                        className={styles.fbLink}
+                        href='https://www.facebook.com/' 
+                        target="_blank">
+                          <img
+                          className={styles.fbIcon}  
+                          src={fbIcon} 
+                          alt='fbIcon'/>
+                          </a>
+                       <a 
+                       className={styles.youtubeLink}
+                       href='https://www.youtube.com/' 
+                       target="_blank">
+                          <img  
+                          className={styles.youtubeIcon}
+                          src={youtubeIcon} 
+                          alt='youtubeIcon'/>
+                          </a> 
                        <p className={styles.socialMediaTxt}>Social Media</p>
                    </div>
                </div>

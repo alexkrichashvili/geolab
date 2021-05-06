@@ -26,8 +26,26 @@
 }
 .aboutUsSection{  
     background-color: #EFEFF6;
+    margin-bottom: 125px;
+    position: relative;
       
 } 
+.applyButton{
+    width: 215px;
+    height: 49px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    border-radius: 7px;
+    top:435px;
+    transition: all 0.2s ease-in-out;
+}
+.applyButton:hover{
+    height: 56px;
+    width: 222px;
+}
 /* general  */
 
 
@@ -38,11 +56,7 @@
     padding-bottom: 42px;
 
 }
-.applyButton{
-    width: 215px;
-    height: 49px;
-    color: black;
-}
+
 
 /* concourse 1 */
 
@@ -53,15 +67,7 @@
     padding-top: 34px;
     padding-bottom: 42px;
 }
-.applyButton{
-    width: 215px;
-    height: 49px;
-    color: white;
-    background-color: black;
-    position: relative;
-    top: 20px;
-    left: 1000px;
-}
+
 /* concourse 2 */
 
 

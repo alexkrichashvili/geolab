@@ -1,12 +1,10 @@
-import styles from "./Projects.module.css"
-import Header from "../Header"
-import Footer from "../Footer"
+import styles from "./Projects.module.css";
 
 
 export default function Projects(){
     return(
 <div>
-    <Header/>
+
         <div className={styles.headlineDiv}>
              <h1>
                  Projects
@@ -47,8 +45,7 @@ export default function Projects(){
                         </div>
                 </div>
                 <button className={styles.applyButton}>apply</button>
-        </div>  
-     <Footer/>  
+        </div>   
                         
 </div>
     )

@@ -1,6 +1,4 @@
 import styles from "./Foundation.module.css";
-import Header from "../Header";
-import Footer from "../Footer";
 import foundation from "../../photos/Group 137@2x.png";
 import line from "../../photos/Line 8@2x.png";
 import photo1 from "./LIANA, MAXIM VENGEROV, A.V.A. MATCHAVARIANI@2x.png";
@@ -24,7 +22,6 @@ export default function Foundation(){
 
     return (
 <div>
-    <Header/>
         <div className={styles.bannerWrapper}>
             <div className={styles.banner}>                            
                             <img  className={styles.foundation} src={foundation} alt='alexi-foto'/>                        
@@ -120,8 +117,7 @@ export default function Foundation(){
 
 
 
-             
-    <Footer/>
+
 </div>
     )
 }

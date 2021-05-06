@@ -1,4 +1,3 @@
-import Header from "../Header";
 import styles from "./Vmanuscripts.module.css";
 import manuscript1 from "./manuscripts/Match119@2x.png";
 import manuscript2 from "./manuscripts/Match121@2x.png";
@@ -11,7 +10,6 @@ import manuscript6 from "./manuscripts/Prometheus.3@2x.png";
 export default function Vmanuscripts(){
     return(
 <div>
-   <Header/>   
     
 
      <div className={styles.nameDiv}>

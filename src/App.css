@@ -60,7 +60,7 @@ a{
   /* text-align: center; */
   background-image: url(./photos/60286@2x.png);
   background-size: contain;
-  background-repeat: repeat-y;
+  background-repeat: inherit;
 
 }
 

@@ -13,26 +13,40 @@
     flex-grow: 1;
     flex-shrink: 1;
     border-right: 1px solid #707070;
+    position: relative;
+    cursor: pointer;
 }
 .emailWrapper{
     float: right;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 35px;
 }
 .emailAddress{
     color: #FBFBFF;
     opacity: 80%;
-    font-size: 17px;
-    padding-top: 35px;
+    font-size: 14px;
+    padding-top: 45px;
 }
 .emailIcon{
     border-radius: 50%;
     
 }
-.emailIcon:hover{
-    border: 1px solid  white ;
+.email::before{
+    content: '';
+    background-color: #ffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0%; 
+    transition: all 0.1s linear 0.2s; 
 }
+.email:hover::before{
+    opacity: 15%;
+}
+
 /* email  classes */
 
 
@@ -44,16 +58,40 @@
     flex-grow: 1;
     flex-shrink: 1;
     border-right: 1px solid #707070;
+    position: relative;
+    cursor: pointer;
+    
+    
     
 }
-.phoneWrapper{
+.phone::before{
+    content: '';
+    background-color: #ffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0%; 
+    transition: all 0.2s linear 0.2s; 
+}
+.phone:hover::before{
+    opacity: 15%;
+}
 
+
+.phoneWrapper{
+    text-align: center;
+    padding-top: 25px;
 }
 .phoneIcon{
 
 }
 .phoneNumber{
-
+    color: #FBFBFF;
+    opacity: 80%;
+    font-size: 14px;
+    padding-top: 45px;
 }
 /* phone classes */
 
@@ -64,38 +102,84 @@
     background-color: #040F16;
     flex-grow: 1;
     flex-shrink: 1;
-    border-right: 1px solid #707070;
+    position: relative;
+    cursor: pointer;
 }
 .locationWrapper{
-
+    text-align: center;
+    padding-top: 25px;
 }
 .locationIcon{
 
 }
 .locationTxt{
-
+    color: #FBFBFF;
+    opacity: 80%;
+    font-size: 14px;
+    padding-top: 45px;
 }
+.location::before{
+    content: '';
+    background-color: #ffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0%; 
+    transition: all 0.2s linear 0.2s; 
+}
+.location:hover::before{
+    opacity: 15%;
+}
+
 /* location classes */
 
 /* social media classes */
 .socialMedia{
     flex-basis: 432px;
     height: 200px;
-    background-color:#262629;
+    background-color:#040F16;
     flex-grow: 1;
     flex-shrink: 1;  
+    position: relative;
+    z-index: 3;
 }
 .socialMediaWrapper{
-
+    padding-top: 25px;
+    padding-left: 60px;
 }
-.youtubeIcon{
+.youtubeLink{
+padding-left: 12.5px;
+}
+.fbLink{
+    padding-right: 12.5px;
+    
+
 
 }
 .fbIcon{
-
+border: 2px solid white;
+border-radius: 50%;
 }
+
 .socialMediaTxt{
-    
+    color: #FBFBFF;
+    opacity: 80%;
+    font-size: 14px;
+    padding-top: 45px;
+}
+.socialMedia::before{
+    content: '';
+    background-color: #ffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 10%; 
+    transition: all 0.2s linear 0.2s; 
+    z-index: -1;
 }
 
 /* social media classes */

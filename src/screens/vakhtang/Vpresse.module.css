@@ -1,0 +1,65 @@
+/* Vpress1, Vpress2, Vpress3 classes */
+
+.presseTxt{
+    line-height: 30px;
+    padding-bottom: 135px;
+}
+.presseSec{  
+    background-color: #EFEFF6;
+    margin-bottom: 30px;
+      
+}
+.parrentDiv{
+    max-width: 1022px; 
+    margin:  0 auto;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-top: 25px;
+    padding-bottom: 40px;  
+    text-decoration: underline; 
+    }
+/* Vpress1, Vpress2, Vpress3 classes */
+
+
+
+/* Vpress classes */
+.headline{
+    padding-top: 117px;
+    font-size: 40px;
+    padding-bottom: 45px;
+    max-width: 1022px;
+    margin: 0 auto;
+} 
+
+
+
+
+.pageDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin: 30px auto 115px auto
+}  
+
+.nextBtn{  
+    transform: rotateY(180deg);
+    align-self: center;   
+}
+
+.prevBtn{
+    align-self: center;
+}
+
+.NumbersDiv{
+    align-self: center;
+}
+.pageNumbers{
+    padding-right: 15px;
+    padding-left:  15px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+/* Vpress classes */
+

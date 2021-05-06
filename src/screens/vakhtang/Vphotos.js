@@ -18,6 +18,7 @@ import photo5 from "./Gallery/9@2x.png"
 import photo6 from "./Gallery/6@2x.png"
 import photo7 from "./Gallery/7@2x.png"
 import photo8 from "./Gallery/8@2x.png"
+import Footer from "../Footer";
 
 
 
@@ -27,7 +28,7 @@ import photo8 from "./Gallery/8@2x.png"
 export default function Vphotos(){
     return(
  <div>
-<Header/>
+
 
 
 
@@ -41,7 +42,7 @@ export default function Vphotos(){
    <div className={styles.portreitsSection}>
         <div className={styles.parrentDiv}>
                <h1 className={styles.title1}>Portreits</h1>
-               <h5 className={styles.photographerTitle1}>Photos By Stephane De Bourgies</h5>
+               <h5 className={styles.photographerName1}>Photos By Stephane De Bourgies</h5>
                <div className={`${styles.flex} ${styles.portreits1}`}>
                                   <img src={portreit1} alt='photo1'/>
                                   <img src={portreit2} alt='photo2'/>
@@ -66,7 +67,7 @@ export default function Vphotos(){
    <div className={styles.concertosSection}>
         <div className={styles.parrentDiv2}>
                <h1 className={styles.title2}>Concertos</h1>
-               <h5 className={styles.photographerTitle2}>Photos By Stephane De Bourgies</h5>
+               <h5 className={styles.photographerName2}>Photos By Stephane De Bourgies</h5>
                <div className={`${styles.flex} ${styles.photos1}`}>
                                   <img src={photo1} alt='photo1'/>
                                   <img src={photo2} alt='photo2'/>
@@ -81,7 +82,6 @@ export default function Vphotos(){
                </div>
         </div>
    </div>
-
 
 </div>
     )

@@ -111,6 +111,7 @@ max-width: 500px;
 }
 .section2{  
     background-color: #EFEFF6;
+    margin-bottom: 83px;
       
 }
 /* projects section */
@@ -120,12 +121,13 @@ max-width: 500px;
 .bannerSec{
     margin: 0 auto;
     padding-top: 80px;
+    position: relative;
     
 }
 
 .imgDiv{
     display: flex;
-    position: relative;
+    
 }
 .alexiImg{
     width: 50%;
@@ -133,22 +135,27 @@ max-width: 500px;
 .h1{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+}
+.h1:first-child{
+    padding-top: 155px;
 }
 
 .vakhtangImg{
     width: 50%;
 }
 .bnrText{
-    height: 50px;
-    width: 40%;
-position: absolute;
-left: 30%;
-top: 15%;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+
 
 }
 .bnrLine{
     width: 1046px;
+
 }
 
 .infoUl{

@@ -1,6 +1,4 @@
 import styles from "./Vakhtang.module.css";
-import Header from "../Header";
-import Footer from "../Footer";
 import vakhtang from '../../photos/Group 185@2x.png';
 import line from "../../photos/Line 8@2x.png";
 import { Link } from "react-router-dom";
@@ -24,9 +22,6 @@ import manuscript2 from "../../photos/Match121@2x.png";
 export default function Vakhtang(){
     return(
         <div>
-
-
-<Header/>
 
 
 
@@ -227,7 +222,7 @@ export default function Vakhtang(){
  </div>
 
 
-<Footer/>
+
         </div>
 
     )

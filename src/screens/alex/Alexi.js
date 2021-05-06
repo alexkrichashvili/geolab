@@ -21,8 +21,8 @@ import manuscript2 from "../../photos/Match121@2x.png";
 export default function Alexi(){
     return(
         <div>
-            <Header/>
-            <Header/>
+            
+            {/* <Header/> */}
 
 <div className={styles.bannerSection}>
 
@@ -33,7 +33,7 @@ export default function Alexi(){
 
       <div className={styles.name}>
             <h1 >
-                Vakhtang Matchavariani
+                Alexi Matchavariani
             </h1>
                 <img className={styles.line} src={line} alt="line"/>
       </div>
@@ -210,7 +210,7 @@ export default function Alexi(){
 
 </div>
 
-             <Footer/>
+             {/* <Footer/> */}
         </div>
 
     )
