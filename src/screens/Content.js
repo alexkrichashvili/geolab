@@ -1,3 +1,4 @@
+import {useTranslation} from "react-i18next";
 import styles from '../css-modules/Content.module.css';
 import vakhtang from '../photos/Group 185@2x.png';
 import alexi from '../photos/photo_alexi@2x.png';
@@ -8,6 +9,10 @@ import arrow from  '../photos/Group 44@2x.png';
 
 
 export default function Content(){
+
+    const { t, i18n } = useTranslation(); 
+
+
      return(
          <div>
 
@@ -19,8 +24,8 @@ export default function Content(){
                       <img className={styles.vakhtangImg} src={vakhtang}/>
                  </div>
                  <div className={styles.bnrText}>
-                      <h1 className={styles.h1}>Alexi And Vakhtang Matchavariani</h1>
-                      <h1 className={styles.h1}>Charity Foundation</h1>
+                      <h1 className={styles.h1}>{t('Alexi And Vakhtang Matchavariani')}</h1>
+                      <h1 className={styles.h1}>{t('Charity Foundation')}</h1>
                       <img className={styles.bnrLine} src={line3}/>
                  </div>
                  
@@ -31,37 +36,37 @@ export default function Content(){
          
 <div className={styles.section1}>
 
- <div className={styles.parrentDiv}>
- <h1 className={styles.title1}>OUR MISSION</h1>
-                                  <div className={styles.flex}>
-                                  <div className = {styles.text1}>
-                               <p> 
-                                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                               </p>
-                               <p>
-                               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                               </p>
+  <div className={styles.parrentDiv}>
+  <h1 className={styles.title1}>{t('OUR MISSION')}</h1>
+        <div className={styles.flex}>
+            <div className = {styles.text1}>
+                <p> 
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                </p>
                                         </div>
 
 
-                                <div className = {styles.text2}>
-                                 <p>
-                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                sed diam
-                                 </p>
-                               </div>
+            <div className = {styles.text2}>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    sed diam
+                </p>
+            </div>
 
-                                  </div>
+        </div>
  
- </div>
+  </div>
 
 
  <div className = {styles.learnmoreDiv}>
- <img className = {styles.line2} src={line2}/>
-  <Link className = {styles.learnMore}>LEARN MORE</Link>   
+      <img className = {styles.line2} src={line2}/>
+      <Link className = {styles.learnMore}>{t('LEARN MORE')}</Link>   
   <img className = {styles.arrow} src={arrow}/>  
  </div>
   
@@ -74,9 +79,9 @@ export default function Content(){
          
 <div>
     <ul className={styles.infoUl}>
-        <li><Link className={styles.infoLink}>About Us</Link></li>
-        <li><Link className={styles.infoLink}>Photos</Link></li>
-        <li><Link className={styles.infoLink}>Team</Link></li>
+        <li><Link className={styles.infoLink}>{t('About Us')}</Link></li>
+        <li><Link className={styles.infoLink}>{t('Photos')}</Link></li>
+        <li><Link className={styles.infoLink}>{t('Team')}</Link></li>
     </ul>
 </div>
 
@@ -87,24 +92,24 @@ export default function Content(){
 <div className={styles.section2}>
 
 <div className={styles.parrentDiv}>
-<h1 className={styles.title1}>PROJECTS</h1>
-                                 <div className={styles.projectsTxt} >
-                                 <p>
-                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+<h1 className={styles.title1}>{t('PROJECTS')}</h1>
+            <div className={styles.projectsTxt} >
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 
-                                 </p>
+                </p>
 
-                                 </div>
+            </div>
 
 </div>
 <div className = {styles.learnmoreDiv}>
-          <img className = {styles.line2} src={line2}/>
-          <Link className = {styles.learnMore}>LEARN MORE</Link>   
- <img className = {styles.arrow} src={arrow}/>  
-</div>
+      <img className = {styles.line2} src={line2}/>
+      <Link className = {styles.learnMore}>{t('LEARN MORE')}</Link>   
+      <img className = {styles.arrow} src={arrow}/>  
+ </div>
     
  </div>
 

@@ -1,10 +1,8 @@
 import {
     BrowserRouter as Router,
       Switch,
-      Route,
-      Link,
-      useParams,
-      useHistory 
+      Route
+
   } 
 from "react-router-dom";
 import Header from "../screens/Header";
@@ -34,7 +32,17 @@ export default function Routes(){
   <Header/>
       <Switch>
 
-      <Route path="/main/alexi/presse">
+        <Route path="/main/alexi/biography">
+              <Abio/>
+        </Route>
+
+
+        <Route path="/main/vakhtang/biography">
+              <Vbio/>
+        </Route>
+
+
+        <Route path="/main/alexi/presse">
               <Apresse/>
         </Route> 
 
