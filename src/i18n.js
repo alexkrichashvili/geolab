@@ -47,8 +47,13 @@ const resources = {
       "PHOTOS":  "ფოტოები",
       "PRESSE": "პრესა",
       "MANUSCRIPTS": "მანუსკრიპტები",
-      "AUDIO & VIDEO SAMPLES": "აუდიო & ვიდეო"
-      // Vakhtang 
+      "AUDIO & VIDEO SAMPLES": "აუდიო & ვიდეო",
+      // Alexi & Vakhtang 
+
+      // Footer
+      "Social Media": "სოციალური მედია",
+      "Location Street": "ქუჩის სახელი"
+      // Footer
 
 
 
