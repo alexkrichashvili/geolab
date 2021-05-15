@@ -21,6 +21,8 @@ import Amanuscripts from "../screens/alex/Amanuscripts";
 import Abio from "../screens/alex/Abio";
 import Vpresse from "../screens/vakhtang/Vpresse";
 import Apresse from "../screens/alex/Apresse";
+import VaudioVideo from "../screens/vakhtang/VaudioVideo";
+import AaudioVideo from "../screens/alex/AaudioVideo";
 
 
 
@@ -67,8 +69,12 @@ export default function Routes(){
         </Route>
         
 
-        <Route path="/main/alexi/audio-video">
-       
+        <Route path="/main/vakhtang/audiovideo">
+             <VaudioVideo/>
+        </Route>
+
+        <Route path="/main/alexi/audiovideo">
+             <AaudioVideo/>
         </Route>
   
 

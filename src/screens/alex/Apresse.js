@@ -13,9 +13,23 @@ import Apresse2 from './Apresse2';
 import Apresse3 from './Apresse3';
 import prev from '../../photos/navigate_prev-24px.svg';
 import next from '../../photos/navigate_next-24px.svg';
+import {useContext} from "react";
+import langContext from "../../langContext";
+import { useTranslation } from "react-i18next";
 
 
 export default function Apresse(){
+
+    let {lang} = useContext(langContext);
+
+    const { t, i18n } = useTranslation();
+    let font = '';
+
+    if(lang === 'en'){
+       font = 'poppins';
+    }else if(lang === 'ka'){
+       font = 'ninobold';
+    }
     
 
 let [page, setPage] = useState(1)
@@ -47,8 +61,8 @@ function prevBtn(){
         <div>
 
 
-            <div  className={styles.headline}>
-                  <h1>Any Title</h1>
+            <div  className={`${styles.headline} ${font}`}>
+                  <h1>{t('Any Title')}</h1>
             </div>
 
 

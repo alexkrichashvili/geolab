@@ -1,4 +1,8 @@
 @font-face{
     font-family: 'poppins';
-    src: url(../Poppins/Poppins-Black.ttf);
+    src: url(../Fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face{
+    font-family: 'ninomtavruli';
+    src: url(../Fonts/ninoMtavruli/bpg-nino-mtavruli-webfont.ttf);
 }

@@ -13,9 +13,23 @@ import Vbio2 from './Abio2';
 import Vbio3 from './Abio3';
 import prev from '../../photos/navigate_prev-24px.svg';
 import next from '../../photos/navigate_next-24px.svg';
+import { useTranslation } from 'react-i18next';
+import {useContext} from "react";
+import langContext from "../../langContext";
+
 
 
 export default function Vbio(){
+    const {t} = useTranslation();
+
+    let {lang} = useContext(langContext);
+    let font = '';
+  
+    if(lang === 'en'){
+       font = 'poppins';
+    }else if(lang === 'ka'){
+       font = 'ninobold';
+    }
     
 
 let [page, setPage] = useState(1)
@@ -47,8 +61,8 @@ function prevBtn(){
         <div>
 
 
-            <div  className={styles.headline}>
-                  <h1>Any Title</h1>
+            <div  className={`${styles.headline} ${font}`}>
+                  <h1>{t('Any Title')}</h1>
             </div>
 
 

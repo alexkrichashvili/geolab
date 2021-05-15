@@ -3,10 +3,21 @@
 .headlineDiv{
     max-width: 1022px;
     padding-top: 120px;
-    padding-bottom: 40px;
+    margin-bottom: 35px;
     margin: 0 auto;
     font-size: 40px;
     
+}
+.spanTxt{
+    color:#040F16;
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 50%;
+}
+.spanTxt2{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 40px;
 }
 
 .parrentDiv{
@@ -36,10 +47,9 @@
     color: white;
     background-color: black;
     position: absolute;
-    top: 20px;
+    bottom: -25px;
     left: 1000px;
     border-radius: 7px;
-    top:435px;
     transition: all 0.2s ease-in-out;
 }
 .applyButton:hover{
@@ -53,7 +63,8 @@
 .ConcourseName1{
     font-size: 34px;
     padding-top: 34px;
-    padding-bottom: 42px;
+    padding-bottom: 20px;
+    font-weight: bold;
 
 }
 
@@ -65,7 +76,8 @@
 .ConcourseName2{
     font-size: 34px;
     padding-top: 34px;
-    padding-bottom: 42px;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
 /* concourse 2 */

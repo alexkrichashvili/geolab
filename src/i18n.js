@@ -52,8 +52,46 @@ const resources = {
 
       // Footer
       "Social Media": "სოციალური მედია",
-      "Location Street": "ქუჩის სახელი"
+      "Location Street": "ქუჩის სახელი",
       // Footer
+
+
+      //  Contact
+      "Send": "გაგზავნა",
+      "Contact": "კონტაქტი",
+      "Your Name":"სახელი",
+      "Your Lastname":"გვარი",
+      "Your Email": "მეილი",
+      "Your message...": "თქვენი მესიჯი",
+      "Location Street": "ქუჩის სახელი",
+      "send": "გაგზავნა",
+      //  Contact
+
+      // Foundation
+      "Foundation": "ფონდი",
+      "ABOUT US": "ჩვენს შესახებ",
+      "TEAM": "გუნდი",
+      "Name Lastname": "სახელი გვარი",
+      // Foundation
+
+      // Projects
+      "Projects": "პროექტები",
+      "Concourse Name": "კონკურსის სახელი",
+      "apply": "რეგისტრაცია",
+      "Contemporary business and science": "შეჯიბრი რომელიც ტარდება",
+      "tasks to be executed over a fixed period": "საუკეთესო ნამუშევრების ან საუკეთესო მონაწილეების გამოვლენის მიზნით",
+      // Projects
+
+
+      // Pages
+    "Any Title": "ნებისმიერი სათაური",
+    "Subtitle": "სათაური",
+      // Pages
+
+      // Aphotos
+      "Portreits": "პორტრეტები",
+      "Concertos": "კონცერტები"
+      // Aphotos
 
 
 

@@ -15,6 +15,8 @@ import photo7 from "./18@2x.png";
 import photo8 from "./19@2x.png";
 import manuscript1 from "../../photos/Match119@2x.png";
 import manuscript2 from "../../photos/Match121@2x.png";
+import {useContext} from "react";
+import langContext from "../../langContext";
 
 
 
@@ -22,6 +24,14 @@ import manuscript2 from "../../photos/Match121@2x.png";
 
 export default function Vakhtang(){
   const { t, i18n } = useTranslation(); 
+  let {lang} = useContext(langContext);
+  let font = '';
+
+  if(lang === 'en'){
+     font = 'poppins';
+  }else if(lang === 'ka'){
+     font = 'ninobold';
+  }
 
     return(
         <div>
@@ -32,7 +42,7 @@ export default function Vakhtang(){
                 <div className={styles.banner}>        
                         <img  className={styles.vakhtang} src={vakhtang} alt='Vakhtang-foto'/>
         
-                        <div className={styles.name}>
+                        <div className={`${styles.name} ${font}`}>
                                             <h1 >
                                               {t('Vakhtang Matchavariani')}
                                             </h1>
@@ -48,8 +58,8 @@ export default function Vakhtang(){
 
         <div className={styles.bioSection}>
             <div className={styles.parrentDiv}>
-                                 <h1 className={styles.title1}>{t("BIOGRAPHY")}</h1>
-                                 <div className={styles.bioTxt} >
+                                 <h1 className={`${styles.title1} ${font}`}>{t("BIOGRAPHY")}</h1>
+                                 <div className={`${styles.bioTxt} ${font}`} >
                                                 <p>
                                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.                                
                                                 </p>
@@ -67,7 +77,7 @@ export default function Vakhtang(){
 
         <div className = {styles.learnmoreDiv}>
                     <img className = {styles.line1} src={line1}/>
-                    <Link className = {styles.learnMore}>{t("LEARN MORE")}</Link>   
+                    <Link to='/main/vakhtang/biography/1' className={`${styles.learnMore} ${font}`}>{t("LEARN MORE")}</Link>   
                     <img className = {styles.arrow} src={arrow}/>  
         </div>
 
@@ -81,7 +91,7 @@ export default function Vakhtang(){
  <div className={styles.photoSection}>
 
 <div className={styles.parrentDiv}>
-          <h1 className={styles.title1}>{t("PHOTOS")}</h1>
+          <h1 className={`${styles.title1} ${font}`}>{t("PHOTOS")}</h1>
         <div className={`${styles.flex} ${styles.photos1}`}>
                                   <img src={photo1} alt='photo1'/>
                                   <img src={photo2} alt='photo2'/>
@@ -98,7 +108,7 @@ export default function Vakhtang(){
 
          <div className = {styles.learnmoreDiv2}>
                                   <img className = {styles.line2} src={line1}/>
-                                  <Link className = {styles.learnMore2} to='/main/vakhtang/photos'>{t("LEARN MORE")}</Link>   
+                                  <Link className={`${styles.learnMore2} ${font}`} to='/main/vakhtang/photos'>{t("LEARN MORE")}</Link>   
                                   <img className = {styles.arrow2} src={arrow}/>  
          </div>
 
@@ -112,8 +122,8 @@ export default function Vakhtang(){
 
 <div className={styles.presseSection}>
 <div className={styles.parrentDiv3}>
-<h1 className={styles.title3}>{t("PRESSE")}</h1>
-                    <div className={styles.presseTxt} >
+<h1 className={`${styles.title3} ${font}`}>{t("PRESSE")}</h1>
+                    <div className={`${styles.presseTxt} ${font}`} >
                                  <p>
                                  1) ...ed diam nrat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.                                
                                  </p>
@@ -145,7 +155,7 @@ export default function Vakhtang(){
 
                     <div className = {styles.learnmoreDiv3}>
                                  <img className = {styles.line3} src={line1}/>
-                                 <Link className = {styles.learnMore3}>{t("LEARN MORE")}</Link>   
+                                 <Link to='/main/vakhtang/presse/1' className={`${styles.learnMore3} ${font}`}>{t("LEARN MORE")}</Link>   
                                  <img className = {styles.arrow3} src={arrow}/>  
                     </div>
     
@@ -156,7 +166,7 @@ export default function Vakhtang(){
      <div className={styles.manuscriptsSec}>
 
                 <div className={styles.parrentDiv4}>
-                <h1 className={styles.title4}>{t("MANUSCRIPTS")}</h1>
+                <h1 className={`${styles.title4} ${font}`}>{t("MANUSCRIPTS")}</h1>
                          <div className={styles.manucriptsWrapper} >
                               <div>
                                    <img src={manuscript1}></img>
@@ -176,7 +186,7 @@ export default function Vakhtang(){
 
                 <div className = {styles.learnmoreDiv4}>
                        <img className = {styles.line4} src={line1}/>
-                       <Link to="/main/vakhtang/manuscripts" className = {styles.learnMore4}>{t("LEARN MORE")}</Link>   
+                       <Link to="/main/vakhtang/manuscripts" className={`${styles.learnMore4} ${font}`}>{t("LEARN MORE")}</Link>   
                        <img className = {styles.arrow4} src={arrow}/>  
                 </div>
 
@@ -191,8 +201,8 @@ export default function Vakhtang(){
  <div className={styles.samplesSec}>
 
 <div className={styles.parrentDiv5}>
-<h1 className={styles.title5}>{t("AUDIO & VIDEO SAMPLES")}</h1>
-                                 <div className={styles.samplesWrapper} >
+<h1 className={`${styles.title5} ${font}`}>{t("AUDIO & VIDEO SAMPLES")}</h1>
+                                 <div className={`${styles.hsamplesWrapper} ${font}`}  >
         <div className={styles.txtWrapper1}>
                             <h5>Concert Recording.</h5>
                             <p>R. Wagner: Overture to opera “Rienzi”.</p>
@@ -218,7 +228,7 @@ export default function Vakhtang(){
 
         <div className = {styles.learnmoreDiv5}>
                              <img className = {styles.line5} src={line1}/>
-                             <Link className = {styles.learnMore5}>{t("LEARN MORE")}</Link>   
+                             <Link className={`${styles.learnMore5} ${font}`}>{t("LEARN MORE")}</Link>   
                              <img className = {styles.arrow5} src={arrow}/>  
         </div>
     

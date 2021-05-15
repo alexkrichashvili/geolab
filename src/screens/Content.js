@@ -6,11 +6,21 @@ import { Link } from "react-router-dom";
 import line2 from '../photos/Line 11@2x.png';
 import line3 from '../photos/Line 9@2x.png';
 import arrow from  '../photos/Group 44@2x.png';
+import {useContext} from "react";
+import langContext from "../langContext";
 
 
 export default function Content(){
+    let {lang} = useContext(langContext);
 
     const { t, i18n } = useTranslation(); 
+    let font = '';
+
+    if(lang === 'en'){
+       font = 'poppins';
+    }else if(lang === 'ka'){
+       font = 'ninobold';
+    }
 
 
      return(
@@ -24,8 +34,8 @@ export default function Content(){
                       <img className={styles.vakhtangImg} src={vakhtang}/>
                  </div>
                  <div className={styles.bnrText}>
-                      <h1 className={styles.h1}>{t('Alexi And Vakhtang Matchavariani')}</h1>
-                      <h1 className={styles.h1}>{t('Charity Foundation')}</h1>
+                      <h1 className={`${styles.h1} ${font}`}>{t('Alexi And Vakhtang Matchavariani')}</h1>
+                      <h1 className={`${styles.h1} ${font}`}>{t('Charity Foundation')}</h1>
                       <img className={styles.bnrLine} src={line3}/>
                  </div>
                  
@@ -37,9 +47,9 @@ export default function Content(){
 <div className={styles.section1}>
 
   <div className={styles.parrentDiv}>
-  <h1 className={styles.title1}>{t('OUR MISSION')}</h1>
+  <h1 className={`${styles.title1} ${font}`}>{t('OUR MISSION')}</h1>
         <div className={styles.flex}>
-            <div className = {styles.text1}>
+            <div className={`${styles.text1} ${font}`}>
                 <p> 
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -52,7 +62,7 @@ export default function Content(){
                                         </div>
 
 
-            <div className = {styles.text2}>
+            <div className={`${styles.text2} ${font}`}>
                 <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     sed diam
@@ -66,7 +76,7 @@ export default function Content(){
 
  <div className = {styles.learnmoreDiv}>
       <img className = {styles.line2} src={line2}/>
-      <Link className = {styles.learnMore}>{t('LEARN MORE')}</Link>   
+      <Link to='/main/foundation' className={`${styles.learnMore} ${font}`}>{t('LEARN MORE')}</Link>   
   <img className = {styles.arrow} src={arrow}/>  
  </div>
   
@@ -79,9 +89,9 @@ export default function Content(){
          
 <div>
     <ul className={styles.infoUl}>
-        <li><Link className={styles.infoLink}>{t('About Us')}</Link></li>
-        <li><Link className={styles.infoLink}>{t('Photos')}</Link></li>
-        <li><Link className={styles.infoLink}>{t('Team')}</Link></li>
+        <li><Link to='/main/projects' className={`${styles.infoLink} ${font}`}>{t('About Us')}</Link></li>
+        <li><Link to='/main/vakhtang/photos' className={`${styles.infoLink} ${font}`}>{t('Photos')}</Link></li>
+        <li><Link to='/main/foundation' className={`${styles.infoLink} ${font}`}>{t('Team')}</Link></li>
     </ul>
 </div>
 
@@ -92,8 +102,8 @@ export default function Content(){
 <div className={styles.section2}>
 
 <div className={styles.parrentDiv}>
-<h1 className={styles.title1}>{t('PROJECTS')}</h1>
-            <div className={styles.projectsTxt} >
+<h1 className={`${styles.title1} ${font}`}>{t('PROJECTS')}</h1>
+            <div className={`${styles.projectsTxt} ${font}`} >
                 <p>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -107,7 +117,7 @@ export default function Content(){
 </div>
 <div className = {styles.learnmoreDiv}>
       <img className = {styles.line2} src={line2}/>
-      <Link className = {styles.learnMore}>{t('LEARN MORE')}</Link>   
+      <Link to='/main/projects' className={`${styles.learnMore} ${font}`}>{t('LEARN MORE')}</Link>   
       <img className = {styles.arrow} src={arrow}/>  
  </div>
     

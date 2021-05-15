@@ -16,9 +16,12 @@ import next from '../../photos/navigate_next-24px.svg';
 import { useTranslation } from 'react-i18next';
 import {useContext} from "react";
 import langContext from "../../langContext";
+import VaudioVideo1 from './VaudioVideo1';
+import VaudioVideo2 from './VaudioVideo2';
+import VaudioVideo3 from './VaudioVideo3';
 
 
-export default function Vbio(){
+export default function VaudioVideo(){
 
 
     const {t} = useTranslation();
@@ -40,7 +43,7 @@ const history = useHistory()
 
 
 useEffect(()=>{
-    history.push('/main/vakhtang/biography/' + page)
+    history.push('/main/vakhtang/audiovideo/' + page)
 }) 
 
 
@@ -68,16 +71,16 @@ function prevBtn(){
 
 
          <Switch>
-             <Route path='/main/vakhtang/biography/1'>
-                 <Vbio1/>
+             <Route path='/main/vakhtang/audiovideo/1'>
+                 <VaudioVideo1/>
              </Route>
 
-             <Route path='/main/vakhtang/biography/2'>
-                 <Vbio2/>
+             <Route path='/main/vakhtang/audiovideo/2'>
+                 <VaudioVideo2/>
              </Route>
 
-             <Route path='/main/vakhtang/biography/3'>
-                 <Vbio3/>
+             <Route path='/main/vakhtang/audiovideo/3'>
+                 <VaudioVideo3/>
              </Route>
          </Switch>
 

@@ -1,4 +1,4 @@
-import styles from './Vbio.module.css';
+import styles from './Abio.module.css';
 import { useState, useEffect } from 'react';
 import {
     BrowserRouter as Router,
@@ -8,17 +8,17 @@ import {
       useHistory 
   } 
 from "react-router-dom";
-import Vbio1 from './Vbio1';
-import Vbio2 from './Vbio2';
-import Vbio3 from './Vbio3';
 import prev from '../../photos/navigate_prev-24px.svg';
 import next from '../../photos/navigate_next-24px.svg';
 import { useTranslation } from 'react-i18next';
 import {useContext} from "react";
 import langContext from "../../langContext";
+import AaudioVideo1 from './AaudioVideo1';
+import AaudioVideo2 from './AaudioVideo2';
+import AaudioVideo3 from './AaudioVideo3';
 
 
-export default function Vbio(){
+export default function AaudioVideo(){
 
 
     const {t} = useTranslation();
@@ -40,7 +40,7 @@ const history = useHistory()
 
 
 useEffect(()=>{
-    history.push('/main/vakhtang/biography/' + page)
+    history.push('/main/alexi/audiovideo/' + page)
 }) 
 
 
@@ -68,16 +68,16 @@ function prevBtn(){
 
 
          <Switch>
-             <Route path='/main/vakhtang/biography/1'>
-                 <Vbio1/>
+             <Route path='/main/alexi/audiovideo/1'>
+                 <AaudioVideo1/>
              </Route>
 
-             <Route path='/main/vakhtang/biography/2'>
-                 <Vbio2/>
+             <Route path='/main/alexi/audiovideo/2'>
+                 <AaudioVideo2/>
              </Route>
 
-             <Route path='/main/vakhtang/biography/3'>
-                 <Vbio3/>
+             <Route path='/main/alexi/audiovideo/3'>
+                 <AaudioVideo3/>
              </Route>
          </Switch>
 

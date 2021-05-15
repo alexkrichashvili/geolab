@@ -45,6 +45,7 @@
     font-size: 34px;
     padding-top: 34px;
     padding-bottom: 33px;
+    font-weight: bold;
 
 }
 /* bio section */
@@ -193,6 +194,7 @@ margin:  0 auto;
 font-size: 34px;
 padding-top: 34px;
 padding-bottom: 33px;
+font-weight: bold;
 
 }
 /* presse section */
@@ -246,6 +248,7 @@ bottom: 0;
 display: inline-block;
 width: 260px;
 vertical-align: middle;
+font-weight: bold;
 }
 /* presse learn more */
 
@@ -270,6 +273,7 @@ margin:  0 auto;
 font-size: 34px;
 padding-top: 30px;
 padding-bottom: 35px;
+font-weight: bold;
 
 }
 
@@ -350,6 +354,7 @@ margin:  0 auto;
 font-size: 34px;
 padding-top: 30px;
 padding-bottom: 35px;
+font-weight: bold;
 
 }
 .txtWrapper1{

@@ -9,9 +9,12 @@ import portreit5 from "./Gallery/12.png"
 import portreit6 from "./Gallery/13.png"
 import portreit7 from "./Gallery/27.png"
 import portreit8 from "./Gallery/32.png"
+import {useContext} from "react";
+import langContext from "../../langContext";
+import { useTranslation } from "react-i18next";
 
 
-import Footer from "../Footer";
+
 
 
 
@@ -19,10 +22,21 @@ import Footer from "../Footer";
 
 
 export default function Aphotos(){
+    
+    let {lang} = useContext(langContext);
+
+    const { t, i18n } = useTranslation();
+    let font = '';
+
+    if(lang === 'en'){
+       font = 'poppins';
+    }else if(lang === 'ka'){
+       font = 'ninobold';
+    }
     return(
  <div>
-         <div className={styles.nameDiv}>
-             <h1>Alexi Matchavariani</h1>
+         <div className={`${styles.nameDiv} ${font}`}>
+             <h1>{t('Alexi Matchavariani')}</h1>
          </div>
 
 
@@ -30,7 +44,7 @@ export default function Aphotos(){
 
    <div className={styles.portreitsSection}>
         <div className={styles.parrentDiv}>
-               <h1 className={styles.title1}>Portreits</h1>
+               <h1 className={`${styles.title1} ${font}`}>{t('Portreits')}</h1>
                <h5 className={styles.photographerName1}>Photos By Stephane De Bourgies</h5>
                <div className={`${styles.flex} ${styles.portreits1}`}>
                                   <img src={portreit1} alt='photo1'/>
@@ -55,7 +69,7 @@ export default function Aphotos(){
 
    <div className={styles.concertosSection}>
         <div className={styles.parrentDiv2}>
-               <h1 className={styles.title2}>Concertos</h1>
+               <h1 className={`${styles.title2} ${font}`}>{t('Concertos')}</h1>
                <h5 className={styles.photographerName2}>Photos By Stephane De Bourgies</h5>
                <div className={`${styles.flex} ${styles.photos1}`}>
                                   <img src={portreit1} alt='photo1'/>

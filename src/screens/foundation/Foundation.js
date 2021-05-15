@@ -15,19 +15,31 @@ import { Link } from "react-router-dom";
 import team1 from "./Rectangle 204@2x.png";
 import team2 from "./Rectangle -1@2x.png";
 import team3 from "./Rectangle -2@2x.png";
+import {useContext} from "react";
+import langContext from "../../langContext";
+import { useTranslation } from "react-i18next";
 
 
 
 export default function Foundation(){
+    const { t, i18n } = useTranslation(); 
+    let {lang} = useContext(langContext);
+    let font = '';
+  
+    if(lang === 'en'){
+       font = 'poppins';
+    }else if(lang === 'ka'){
+       font = 'ninobold';
+    }
 
     return (
 <div>
         <div className={styles.bannerWrapper}>
             <div className={styles.banner}>                            
                             <img  className={styles.foundation} src={foundation} alt='alexi-foto'/>                        
-                            <div className={styles.name}>
+                            <div className={`${styles.name} ${font}`}>
                                     <h1>
-                                        Foundation
+                                    {t('Foundation')}
                                     </h1>
                                     <img className={styles.line} src={line} alt="line"/>
                             </div>
@@ -40,8 +52,8 @@ export default function Foundation(){
 
              <div className={styles.aboutUsSection}>
                    <div className={styles.parrentDiv}>
-                            <h1 className={styles.title1}>ABOUT US</h1>
-                            <div className={styles.aboutTxt} >
+                            <h1 className={`${styles.title1} ${font}`}>{t('ABOUT US')}</h1>
+                            <div className={`${styles.aboutTxt} ${font}`} >
                                  <p>
                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -57,7 +69,7 @@ export default function Foundation(){
 
               <div className={styles.photoSection}>
                         <div className={styles.parrentDiv}>
-                                   <h1 className={styles.title1}>PHOTOS</h1>
+                                   <h1 className={`${styles.title1} ${font}`}>{t('PHOTOS')}</h1>
                                    <div className={`${styles.flex} ${styles.photos1}`}>
                                                   <img src={photo1} alt='photo1'/>
                                                   <img src={photo2} alt='photo2'/>
@@ -73,7 +85,7 @@ export default function Foundation(){
                         </div>
                         <div className = {styles.learnmoreDiv}>
                                    <img className = {styles.line2} src={line2}/>
-                                   <Link className = {styles.learnMore}>LEARN MORE</Link>   
+                                   <Link to='/main/alexi/photos' className={`${styles.learnMore} ${font}`}>{t('LEARN MORE')}</Link>   
                                    <img className = {styles.arrow} src={arrow}/>  
                         </div>
 
@@ -84,11 +96,11 @@ export default function Foundation(){
 
               <div className={styles.teamSection}>
                        <div className={styles.teamParrentDiv}>
-                           <h1 className={styles.teamTitle}>TEAM</h1>
+                           <h1 className={`${styles.teamTitle} ${font}`}>{t('TEAM')}</h1>
                            <div className={styles.teamMember1}>
                                    <img className={styles.teamPhoto} src={team1}/>
-                                   <div className={styles.teamText}>
-                                       <h1 className={styles.memberName}>name lastname</h1>
+                                   <div className={`${styles.teamText} ${font}`}>
+                                       <h1 className={styles.memberName}>{t('Name Lastname')}</h1>
                                        <p>
                                            A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
                                        </p>
@@ -96,8 +108,8 @@ export default function Foundation(){
                            </div>
                            <div className={styles.teamMember2}>
                                    <img className={styles.teamPhoto} src={team2}/>
-                                   <div className={styles.teamText}>
-                                       <h1 className={styles.memberName}>name lastname</h1>
+                                   <div className={`${styles.teamText} ${font}`}>
+                                       <h1 className={styles.memberName}>{t('Name Lastname')}</h1>
                                        <p>
                                            A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
                                        </p>
@@ -105,8 +117,8 @@ export default function Foundation(){
                            </div>
                            <div className={styles.teamMember3}>
                                    <img className={styles.teamPhoto}  src={team3}/>
-                                   <div className={styles.teamText}>
-                                       <h1 className={styles.memberName}>name lastname</h1>
+                                   <div className={`${styles.teamText} ${font}`}>
+                                       <h1 className={styles.memberName}>{t('Name Lastname')}</h1>
                                        <p>
                                        A biography, or simply bio, is a detailed description of a person's life. It involves more than just the basic facts like education, work, relationships, and death; it portrays a person's experience of these life events. Unlike a profile or curriculum vitae (résumé), a biography presents a subject's life story, highlighting various aspects of his or her life, including intimate details of experience, and may include an analysis of the subject's personality
                                        </p>
