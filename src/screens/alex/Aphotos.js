@@ -1,15 +1,13 @@
 import styles from "./Aphotos.module.css";
-import Header from "../Header";
-
-import portreit1 from "./Gallery/70.png"
-import portreit2 from "./Gallery/31.png"
-import portreit3 from "./Gallery/61.png"
-import portreit4 from "./Gallery/33.png"
-import portreit5 from "./Gallery/12.png"
-import portreit6 from "./Gallery/13.png"
-import portreit7 from "./Gallery/27.png"
-import portreit8 from "./Gallery/32.png"
-import {useContext} from "react";
+import portreit1 from "./Gallery/70.png";
+import portreit2 from "./Gallery/31.png";
+import portreit3 from "./Gallery/61.png";
+import portreit4 from "./Gallery/33.png";
+import portreit5 from "./Gallery/12.png";
+import portreit6 from "./Gallery/13.png";
+import portreit7 from "./Gallery/27.png";
+import portreit8 from "./Gallery/32.png";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import { useTranslation } from "react-i18next";
 

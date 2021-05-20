@@ -1,7 +1,7 @@
 import {useTranslation} from "react-i18next";
-import { Link, useParams, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from '../css-modules/Header.module.css'
-import { useContext, useEffect, useState} from "react";
+import React, { useContext} from "react";
 import langContext from "../langContext";
 
 

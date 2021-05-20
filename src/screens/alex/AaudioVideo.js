@@ -11,7 +11,7 @@ from "react-router-dom";
 import prev from '../../photos/navigate_prev-24px.svg';
 import next from '../../photos/navigate_next-24px.svg';
 import { useTranslation } from 'react-i18next';
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import AaudioVideo1 from './AaudioVideo1';
 import AaudioVideo2 from './AaudioVideo2';

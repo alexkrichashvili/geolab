@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import line2 from '../photos/Line 11@2x.png';
 import line3 from '../photos/Line 9@2x.png';
 import arrow from  '../photos/Group 44@2x.png';
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../langContext";
 
 

@@ -17,6 +17,7 @@ import manuscript1 from "../../photos/Match119@2x.png";
 import manuscript2 from "../../photos/Match121@2x.png";
 import {useContext} from "react";
 import langContext from "../../langContext";
+import React from 'react';
 
 
 

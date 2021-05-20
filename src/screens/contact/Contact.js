@@ -5,7 +5,7 @@ import phoneIcon from "./smartphone.svg";
 import markIcon  from "./placeholder.svg"
 import emailjs from 'emailjs-com';
 import Map from "./Map";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 
 

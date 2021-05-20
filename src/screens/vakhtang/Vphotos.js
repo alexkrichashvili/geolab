@@ -18,7 +18,7 @@ import photo5 from "./Gallery/9@2x.png"
 import photo6 from "./Gallery/6@2x.png"
 import photo7 from "./Gallery/7@2x.png"
 import photo8 from "./Gallery/8@2x.png"
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import { useTranslation } from "react-i18next";
 

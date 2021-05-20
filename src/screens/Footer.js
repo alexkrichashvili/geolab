@@ -1,12 +1,12 @@
 import {useTranslation} from "react-i18next";
-import styles from "../css-modules/Footer.module.css"
-import emailIcon from "../photos/email.svg"
-import youtubeIcon from "../photos/youtube.svg"
-import fbIcon from "../photos/fb.svg"
-import phoneIcon from "../photos/phone.svg"
+import styles from "../css-modules/Footer.module.css";
+import emailIcon from "../photos/email.svg";
+import youtubeIcon from "../photos/youtube.svg";
+import fbIcon from "../photos/fb.svg";
+import phoneIcon from "../photos/phone.svg";
 import locationIcon from "../photos/location.svg"
 import { useHistory } from "react-router";
-import {useContext} from "react";
+import React,{useContext} from "react";
 import langContext from "../langContext";
 
 

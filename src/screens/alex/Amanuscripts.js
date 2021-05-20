@@ -1,4 +1,3 @@
-import Header from "../Header";
 import styles from "./Amanuscripts.module.css";
 import manuscript1 from "./manuscripts/Match119@2x.png";
 import manuscript2 from "./manuscripts/Match121@2x.png";
@@ -6,7 +5,7 @@ import manuscript3 from "./manuscripts/Match122@2x.png";
 import manuscript4 from "./manuscripts/Match123@2x.png";
 import manuscript5 from "./manuscripts/Match124@2x.png";
 import manuscript6 from "./manuscripts/Prometheus.3@2x.png";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import { useTranslation } from "react-i18next";
 

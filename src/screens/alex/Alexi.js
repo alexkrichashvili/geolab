@@ -17,7 +17,7 @@ import photo7 from "./61@2x.png";
 import photo8 from "./70@2x.png";
 import manuscript1 from "../../photos/Match119@2x.png";
 import manuscript2 from "../../photos/Match121@2x.png";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 
 
@@ -106,7 +106,7 @@ export default function Alexi(){
 
 <div className = {styles.learnmoreDiv2}>
 <img className = {styles.line2} src={line1}/>
-<Link className={`${styles.learnMore2} ${font}`}>{t("LEARN MORE")}</Link>   
+<Link to="/main/alexi/photos" className={`${styles.learnMore2} ${font}`}>{t("LEARN MORE")}</Link>   
 <img className = {styles.arrow2} src={arrow}/>  
 </div>
 
@@ -219,7 +219,7 @@ export default function Alexi(){
 
 <div className = {styles.learnmoreDiv5}>
 <img className = {styles.line5} src={line1}/>
-<Link className={`${styles.learnMore5} ${font}`}>{t("LEARN MORE")}</Link>   
+<Link to='/main/alexi/audiovideo' className={`${styles.learnMore5} ${font}`}>{t("LEARN MORE")}</Link>   
 <img className = {styles.arrow5} src={arrow}/>  
 </div>
 

@@ -8,7 +8,7 @@ import './App.css';
 import Routes from "./routes/Routes";
 import ScrollToTop from './screens/ScrollToTop';
 import langContext from './langContext';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 
 

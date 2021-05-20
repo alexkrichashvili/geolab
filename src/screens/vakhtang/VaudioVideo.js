@@ -14,7 +14,7 @@ import Vbio3 from './Vbio3';
 import prev from '../../photos/navigate_prev-24px.svg';
 import next from '../../photos/navigate_next-24px.svg';
 import { useTranslation } from 'react-i18next';
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import VaudioVideo1 from './VaudioVideo1';
 import VaudioVideo2 from './VaudioVideo2';
@@ -49,14 +49,14 @@ useEffect(()=>{
 
 function nextBtn(){
     if (page < 3){
-        setPage(page + 1)
+        setPage(page += 1)
     }
 }
 
 
 function prevBtn(){
     if (page >= 2){
-        setPage(page - 1)
+        setPage(page -= 1)
     }
 }
 

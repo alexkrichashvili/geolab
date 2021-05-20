@@ -13,7 +13,7 @@ import Apresse2 from './Apresse2';
 import Apresse3 from './Apresse3';
 import prev from '../../photos/navigate_prev-24px.svg';
 import next from '../../photos/navigate_next-24px.svg';
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import { useTranslation } from "react-i18next";
 

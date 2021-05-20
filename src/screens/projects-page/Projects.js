@@ -1,7 +1,8 @@
 import styles from "./Projects.module.css";
 import { useTranslation } from "react-i18next";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
+
 
 
 export default function Projects(){

@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 import team1 from "./Rectangle 204@2x.png";
 import team2 from "./Rectangle -1@2x.png";
 import team3 from "./Rectangle -2@2x.png";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import langContext from "../../langContext";
 import { useTranslation } from "react-i18next";
 

@@ -1,4 +1,5 @@
 import styles from './Apresse.module.css';
+import React from 'react';
 
 export default function Apresse2(){
     return (<div>      

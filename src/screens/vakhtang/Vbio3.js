@@ -1,4 +1,5 @@
 import styles from './Vbio.module.css';
+import React from 'react';
 
 
 export default function Vbio3(){
