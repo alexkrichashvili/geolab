@@ -1,182 +1,172 @@
 /* general classes */
-.flex{
-    display:flex;
-    margin: 0 auto;
+.flex {
+     display: flex;
+     margin: 0 auto;
 }
 /* general classes */
 
 /* email classes */
-.email{
-    flex-basis: 430px;
-    height: 200px;
-    background-color: #040F16;
-    flex-grow: 1;
-    flex-shrink: 1;
-    border-right: 1px solid #707070;
-    position: relative;
-    cursor: pointer;
+.email {
+     flex-basis: 430px;
+     height: 200px;
+     background-color: #040f16;
+     flex-grow: 1;
+     flex-shrink: 1;
+     border-right: 1px solid #707070;
+     position: relative;
+     cursor: pointer;
 }
-.emailWrapper{
-    float: right;
-    text-align: center;
-    padding-top: 25px;
-    padding-right: 35px;
+.emailWrapper {
+     float: right;
+     text-align: center;
+     padding-top: 25px;
+     padding-right: 35px;
 }
-.emailAddress{
-    color: #FBFBFF;
-    opacity: 0.8;
-    font-size: 14px;
-    padding-top: 45px;
+.emailAddress {
+     color: #fbfbff;
+     opacity: 0.8;
+     font-size: 14px;
+     padding-top: 45px;
 }
-.emailIcon{
-    border-radius: 50%;
-    
+.emailIcon {
+     border-radius: 50%;
 }
-.email::before{
-    content: '';
-    background-color: #ffff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0; 
-    transition: all 0.1s linear 0.2s; 
+.email::before {
+     content: '';
+     background-color: #ffff;
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     opacity: 0;
+     transition: all 0.1s linear 0.2s;
 }
-.email:hover::before{
-    opacity: 0.15;
+.email:hover::before {
+     opacity: 0.15;
 }
 
 /* email  classes */
 
-
 /* phone  classes */
-.phone{
-    flex-basis: 255px;
-    height: 200px;
-    background-color: #040F16;
-    flex-grow: 1;
-    flex-shrink: 1;
-    border-right: 1px solid #707070;
-    position: relative;
-    cursor: pointer;
-    
-    
-    
+.phone {
+     flex-basis: 255px;
+     height: 200px;
+     background-color: #040f16;
+     flex-grow: 1;
+     flex-shrink: 1;
+     border-right: 1px solid #707070;
+     position: relative;
+     cursor: pointer;
 }
-.phone::before{
-    content: '';
-    background-color: #ffff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0; 
-    transition: all 0.2s linear 0.2s; 
+.phone::before {
+     content: '';
+     background-color: #ffff;
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     opacity: 0;
+     transition: all 0.2s linear 0.2s;
 }
-.phone:hover::before{
-    opacity: 0.15;
+.phone:hover::before {
+     opacity: 0.15;
 }
 
-
-.phoneWrapper{
-    text-align: center;
-    padding-top: 25px;
+.phoneWrapper {
+     text-align: center;
+     padding-top: 25px;
 }
 
-.phoneNumber{
-    color: #FBFBFF;
-    opacity: 0.8;
-    font-size: 14px;
-    padding-top: 45px;
+.phoneNumber {
+     color: #fbfbff;
+     opacity: 0.8;
+     font-size: 14px;
+     padding-top: 45px;
 }
 /* phone classes */
 
 /* location classes */
-.location{
-    flex-basis: 252px;
-    height: 200px;
-    background-color: #040F16;
-    flex-grow: 1;
-    flex-shrink: 1;
-    position: relative;
-    cursor: pointer;
+.location {
+     flex-basis: 252px;
+     height: 200px;
+     background-color: #040f16;
+     flex-grow: 1;
+     flex-shrink: 1;
+     position: relative;
+     cursor: pointer;
 }
-.locationWrapper{
-    text-align: center;
-    padding-top: 25px;
+.locationWrapper {
+     text-align: center;
+     padding-top: 25px;
 }
 
-.locationTxt{
-    color: #FBFBFF;
-    opacity: 0.8;
-    font-size: 14px;
-    padding-top: 45px;
+.locationTxt {
+     color: #fbfbff;
+     opacity: 0.8;
+     font-size: 14px;
+     padding-top: 45px;
 }
-.location::before{
-    content: '';
-    background-color: #ffff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0%; 
-    transition: all 0.2s linear 0.2s; 
+.location::before {
+     content: '';
+     background-color: #ffff;
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     opacity: 0%;
+     transition: all 0.2s linear 0.2s;
 }
-.location:hover::before{
-    opacity: 0.15;
+.location:hover::before {
+     opacity: 0.15;
 }
 
 /* location classes */
 
 /* social media classes */
-.socialMedia{
-    flex-basis: 432px;
-    height: 200px;
-    background-color:#040F16;
-    flex-grow: 1;
-    flex-shrink: 1;  
-    position: relative;
-    z-index: 3;
+.socialMedia {
+     flex-basis: 432px;
+     height: 200px;
+     background-color: #040f16;
+     flex-grow: 1;
+     flex-shrink: 1;
+     position: relative;
+     z-index: 3;
 }
-.socialMediaWrapper{
-    padding-top: 25px;
-    padding-left: 60px;
+.socialMediaWrapper {
+     padding-top: 25px;
+     padding-left: 60px;
 }
-.youtubeLink{
-padding-left: 12.5px;
-border-radius: 50%;
+.youtubeLink {
+     padding-left: 12.5px;
+     border-radius: 50%;
 }
-.fbLink{
-    padding-right: 12.5px;
-    
-
-
+.fbLink {
+     padding-right: 12.5px;
 }
-.fbIcon{
-border-radius: 50%;
+.fbIcon {
+     border-radius: 50%;
 }
 
-.socialMediaTxt{
-    color: #FBFBFF;
-    opacity: 0.8;
-    font-size: 14px;
-    padding-top: 45px;
+.socialMediaTxt {
+     color: #fbfbff;
+     opacity: 0.8;
+     font-size: 14px;
+     padding-top: 45px;
 }
-.socialMedia::before{
-    content: '';
-    background-color: #ffff;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0.1; 
-    transition: all 0.2s linear 0.2s; 
-    z-index: -1;
+.socialMedia::before {
+     content: '';
+     background-color: #ffff;
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     opacity: 0.1;
+     transition: all 0.2s linear 0.2s;
+     z-index: -1;
 }
-
 
 /* social media classes */

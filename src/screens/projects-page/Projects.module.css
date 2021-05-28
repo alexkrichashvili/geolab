@@ -1,85 +1,75 @@
-
 /* general */
-.headlineDiv{
-    max-width: 1022px;
-    padding-top: 120px;
-    margin-bottom: 35px;
-    margin: 0 auto;
-    font-size: 40px;
-    
+.headlineDiv {
+     max-width: 1022px;
+     padding-top: 120px;
+     margin-bottom: 35px;
+     margin: 0 auto;
+     font-size: 40px;
 }
-.spanTxt{
-    color:#040F16;
-    font-size: 14px;
-    margin-bottom: 20px;
-    opacity: 50%;
+.spanTxt {
+     color: #040f16;
+     font-size: 14px;
+     margin-bottom: 20px;
+     opacity: 50%;
 }
-.spanTxt2{
-font-size: 22px;
-font-weight: bold;
-margin-bottom: 40px;
-}
-
-.parrentDiv{
-    max-width: 1022px; 
-    margin:  0 auto;
-    margin-top: 55px;
-}
-.flex{
-    display: flex;
-    margin: 0 auto;
+.spanTxt2 {
+     font-size: 22px;
+     font-weight: bold;
+     margin-bottom: 40px;
 }
 
+.parrentDiv {
+     max-width: 1022px;
+     margin: 0 auto;
+     margin-top: 55px;
+}
+.flex {
+     display: flex;
+     margin: 0 auto;
+}
 
-.aboutTxt{
-    line-height: 30px;
-    padding-bottom: 50px;
+.aboutTxt {
+     line-height: 30px;
+     padding-bottom: 50px;
 }
-.aboutUsSection{  
-    background-color: #EFEFF6;
-    margin-bottom: 125px;
-    position: relative;
-      
-} 
-.applyButton{
-    width: 215px;
-    height: 49px;
-    color: white;
-    background-color: black;
-    position: absolute;
-    bottom: -25px;
-    left: 1000px;
-    border-radius: 7px;
-    transition: all 0.2s ease-in-out;
+.aboutUsSection {
+     background-color: #efeff6;
+     margin-bottom: 125px;
+     position: relative;
 }
-.applyButton:hover{
-    height: 56px;
-    width: 222px;
+.applyButton {
+     width: 215px;
+     height: 49px;
+     color: white;
+     background-color: black;
+     position: absolute;
+     bottom: -25px;
+     left: 1000px;
+     border-radius: 7px;
+     transition: all 0.2s ease-in-out;
+}
+.applyButton:hover {
+     height: 56px;
+     width: 222px;
 }
 /* general  */
 
-
 /* concourse 1 */
-.ConcourseName1{
-    font-size: 34px;
-    padding-top: 34px;
-    padding-bottom: 20px;
-    font-weight: bold;
-
+.ConcourseName1 {
+     font-size: 34px;
+     padding-top: 34px;
+     padding-bottom: 20px;
+     font-weight: bold;
 }
-
 
 /* concourse 1 */
 
-
 /* concourse 2 */
-.ConcourseName2{
-    font-size: 34px;
-    padding-top: 34px;
-    padding-bottom: 20px;
-    font-weight: bold;
+.ConcourseName2 {
+     font-size: 34px;
+     padding-top: 34px;
+     padding-bottom: 20px;
+     font-weight: bold;
 }
 
 /* concourse 2 */
-
-

@@ -1,170 +1,155 @@
-.header{
-    width: 100%;
-    background-color: #FFFF;
-    position:fixed;
-    top: 0;
-    left: 0;
-    z-index: 5;
+.header {
+     width: 100%;
+     background-color: #ffff;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 5;
 }
 
-
-
-.navUl{
-    display: flex;
-    margin-top: 32px;
-    
+.navUl {
+     display: flex;
+     margin-top: 32px;
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    height: 80px;
-    width: 1022px; 
-    margin: 0 auto;
+.container {
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+     height: 80px;
+     width: 1022px;
+     margin: 0 auto;
 }
-.navLi1, .navLi2, .navLi3, .navLi4, .navLi5{
-    /* margin-left: 10px;
+.navLi1,
+.navLi2,
+.navLi3,
+.navLi4,
+.navLi5 {
+     /* margin-left: 10px;
     margin-right: 10px;   */
-    /* display: inline-block; */
-    position: relative;  
-    margin-right: -10px;
+     /* display: inline-block; */
+     position: relative;
+     margin-right: -10px;
 }
-
-
-
-
-
 
 /* sub-nav styles */
 
-.subNav1{
-    padding-top: 35px;
-    width: 270px;
-    background-color: white;
-    position: absolute;    
-    left: -10px;
-    list-style: inside;
-    visibility: hidden;
-    transition:  all .03s ease-in .25s;
-    
+.subNav1 {
+     padding-top: 35px;
+     width: 270px;
+     background-color: white;
+     position: absolute;
+     left: -10px;
+     list-style: inside;
+     visibility: hidden;
+     transition: all 0.03s ease-in 0.25s;
 }
-.subNav1, .subNav2, .subNav3, li{
-    padding-left: 10px;
-    padding-bottom: 20px;
-    font-size: 14px;
-    
-}
-
-.subNavLink:hover{
-    text-decoration: underline;
-}
-.subNav2{
-    padding-top: 35px;
-    width: 270px;
-    background-color: white;
-    position: absolute;   
-    left: -10px;
-    list-style: inside;
-    visibility: hidden;
-    transition:  all .03s ease-in .25s;
+.subNav1,
+.subNav2,
+.subNav3,
+li {
+     padding-left: 10px;
+     padding-bottom: 20px;
+     font-size: 14px;
 }
 
-.subNav3{
-    padding-top: 35px;
-    width: 270px;
-    background-color: white;
-    position: absolute;  
-    left: -10px;
-    list-style: inside;
-    transition:  all .03s  ease-in .25s;
-    visibility: hidden;
-    
+.subNavLink:hover {
+     text-decoration: underline;
+}
+.subNav2 {
+     padding-top: 35px;
+     width: 270px;
+     background-color: white;
+     position: absolute;
+     left: -10px;
+     list-style: inside;
+     visibility: hidden;
+     transition: all 0.03s ease-in 0.25s;
 }
 
-.navLi1:hover .subNav1{
-    visibility: visible;
+.subNav3 {
+     padding-top: 35px;
+     width: 270px;
+     background-color: white;
+     position: absolute;
+     left: -10px;
+     list-style: inside;
+     transition: all 0.03s ease-in 0.25s;
+     visibility: hidden;
 }
-.navLi1:hover .navLink1{
-    box-shadow: inset 0 3px black;
+
+.navLi1:hover .subNav1 {
+     visibility: visible;
 }
-.navLi2:hover .subNav2{
-    visibility: visible;
+.navLi1:hover .navLink1 {
+     box-shadow: inset 0 3px black;
 }
-.navLi2:hover .navLink2{
-    box-shadow: inset 0 3px black;
+.navLi2:hover .subNav2 {
+     visibility: visible;
 }
-.navLi3:hover .subNav3{
-    visibility: visible;
+.navLi2:hover .navLink2 {
+     box-shadow: inset 0 3px black;
 }
-.navLi3:hover .navLink3{
-    box-shadow: inset 0 3px black;
+.navLi3:hover .subNav3 {
+     visibility: visible;
 }
-.navLi4:hover .navLink4{
-    box-shadow: inset 0 3px black;
+.navLi3:hover .navLink3 {
+     box-shadow: inset 0 3px black;
 }
-.navLi5:hover .navLink5{
-    box-shadow: inset 0 3px black;
+.navLi4:hover .navLink4 {
+     box-shadow: inset 0 3px black;
 }
-.subNav1 li:last-child{
-    padding-bottom: 0px;
+.navLi5:hover .navLink5 {
+     box-shadow: inset 0 3px black;
 }
-.subNav2 li:last-child{
-    padding-bottom: 0px;
+.subNav1 li:last-child {
+     padding-bottom: 0px;
 }
-.subNav3 li:last-child{
-    padding-bottom: 0px;
+.subNav2 li:last-child {
+     padding-bottom: 0px;
+}
+.subNav3 li:last-child {
+     padding-bottom: 0px;
 }
 /* sub-nav styles */
 
-
-
-.navLink1, .navLink2, .navLink3, .navLink4, .navLink5{
-    transition: all .15s linear .25s ;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 12px;
-    font-size: 14px;
-    font-weight: bold;
-    
+.navLink1,
+.navLink2,
+.navLink3,
+.navLink4,
+.navLink5 {
+     transition: all 0.15s linear 0.25s;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 12px;
+     font-size: 14px;
+     font-weight: bold;
 }
-.logodiv{
-    align-self: center;
-   
+.logodiv {
+     align-self: center;
 }
-.logo{
-    padding-top: 5px;
-    font-size: 34px;
-    transition: all 0.15s linear ;
-    font-family: 'poppins';
-
+.logo {
+     padding-top: 5px;
+     font-size: 34px;
+     transition: all 0.15s linear;
+     font-family: 'poppins';
 }
-.logo:hover{
-    box-shadow: inset 0 3px black;
+.logo:hover {
+     box-shadow: inset 0 3px black;
 }
-.languages{
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: 'poppins';
+.languages {
+     margin-top: 30px;
+     font-size: 20px;
+     font-family: 'poppins';
 }
-.navLink:hover{
-    box-shadow: inset 0 3px black;
-    
+.navLink:hover {
+     box-shadow: inset 0 3px black;
 }
 
-
-.lngBtn{
-    cursor: pointer;
-    
+.lngBtn {
+     cursor: pointer;
 }
 
-
-.lngBtn:hover{
-  text-decoration: underline;
-  
+.lngBtn:hover {
+     text-decoration: underline;
 }
-
-
-
-
-

@@ -1,65 +1,58 @@
 /* Vpress1, Vpress2, Vpress3 classes */
 
-.presseTxt{
-    line-height: 30px;
-    padding-bottom: 135px;
+.presseTxt {
+     line-height: 30px;
+     padding-bottom: 135px;
 }
-.presseSec{  
-    background-color: #EFEFF6;
-    margin-bottom: 30px;
-      
+.presseSec {
+     background-color: #efeff6;
+     margin-bottom: 30px;
 }
-.parrentDiv{
-    max-width: 1022px; 
-    margin:  0 auto;
+.parrentDiv {
+     max-width: 1022px;
+     margin: 0 auto;
 }
-.title{
-    font-size: 30px;
-    font-family: 'Poppins';
-    padding-top: 25px;
-    padding-bottom: 40px;  
-    text-decoration: underline; 
-    }
+.title {
+     font-size: 30px;
+     font-family: 'Poppins';
+     padding-top: 25px;
+     padding-bottom: 40px;
+     text-decoration: underline;
+}
 /* Vpress1, Vpress2, Vpress3 classes */
 
-
-
 /* Vpress classes */
-.headline{
-    padding-top: 120px;
-    font-size: 40px;
-    padding-bottom: 40px;
-    max-width: 1022px;
-    margin: 0 auto;
-} 
-
-
-
-
-.pageDiv{
-    display: flex;
-    justify-content: space-between;
-    width: 340px;
-    margin: 30px auto 115px auto
-}  
-
-.nextBtn{  
-    transform: rotateY(180deg);
-    align-self: center;   
+.headline {
+     padding-top: 120px;
+     font-size: 40px;
+     padding-bottom: 40px;
+     max-width: 1022px;
+     margin: 0 auto;
 }
 
-.prevBtn{
-    align-self: center;
+.pageDiv {
+     display: flex;
+     justify-content: space-between;
+     width: 340px;
+     margin: 30px auto 115px auto;
 }
 
-.NumbersDiv{
-    align-self: center;
+.nextBtn {
+     transform: rotateY(180deg);
+     align-self: center;
 }
-.pageNumbers{
-    padding-right: 15px;
-    padding-left:  15px;
-    font-size: 16px;
-    font-family: 'Poppins';
+
+.prevBtn {
+     align-self: center;
+}
+
+.NumbersDiv {
+     align-self: center;
+}
+.pageNumbers {
+     padding-right: 15px;
+     padding-left: 15px;
+     font-size: 16px;
+     font-family: 'Poppins';
 }
 /* Vpress classes */
-

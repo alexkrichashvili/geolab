@@ -2,178 +2,150 @@
 /* mission section styles */
 /* mission section styles */
 
-.section1{  
-    background-color: #EFEFF6;
-    margin: 60px  auto 0 auto;   
+.section1 {
+     background-color: #efeff6;
+     margin: 60px auto 0 auto;
 }
 
-.parrentDiv{
-    max-width: 1022px; 
-    margin:  0 auto;
+.parrentDiv {
+     max-width: 1022px;
+     margin: 0 auto;
 }
-.flex{
-    display: flex;
-    margin: 0 auto;
-}
-
-.title1{
-font-size: 34px;
-padding-top: 34px;
-padding-bottom: 42px;
-font-weight: bold;
-
+.flex {
+     display: flex;
+     margin: 0 auto;
 }
 
-
-.text1, .text2{
-   
-   font-size: 14px;   
-   line-height: 30px;
- 
-
+.title1 {
+     font-size: 34px;
+     padding-top: 34px;
+     padding-bottom: 42px;
+     font-weight: bold;
 }
 
-.text1{
-max-width: 499px;
-padding-right: 32px;
-
-
-
+.text1,
+.text2 {
+     font-size: 14px;
+     line-height: 30px;
 }
-.text2{
-    max-width: 459px;
-    padding-left: 32px;
-  
+
+.text1 {
+     max-width: 499px;
+     padding-right: 32px;
+}
+.text2 {
+     max-width: 459px;
+     padding-left: 32px;
 }
 /* learn more */
-.learnmoreDiv{
-padding-bottom: 56px;
-padding-top: 36px;
-transition: all 0.3s linear;
-max-width: 500px;
-
+.learnmoreDiv {
+     padding-bottom: 56px;
+     padding-top: 36px;
+     transition: all 0.3s linear;
+     max-width: 500px;
 }
-.arrow{
-    display: inline-block;
-    width: 61.5px;
-    vertical-align: middle;
-    position: relative;
-    right: 47px;
-    left: -47px;
-    top: 0;
-    bottom: 0;
-    transition: all 0.2s linear .1s ;   
+.arrow {
+     display: inline-block;
+     width: 61.5px;
+     vertical-align: middle;
+     position: relative;
+     right: 47px;
+     left: -47px;
+     top: 0;
+     bottom: 0;
+     transition: all 0.2s linear 0.1s;
 }
-.learnMore{
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    position: relative;
-    left: -57px;
-    top: 0px;
-    bottom: 0px;
-    transition: all 0.2s linear ;
-    
-    
-    }
-.learnmoreDiv:hover .arrow{
- left:23px;   
- right: 0;
- top: 0;
- bottom: 0;
- 
+.learnMore {
+     display: inline-block;
+     font-size: 16px;
+     vertical-align: middle;
+     position: relative;
+     left: -57px;
+     top: 0px;
+     bottom: 0px;
+     transition: all 0.2s linear;
 }
-.learnmoreDiv:hover .learnMore{
-    left: 10px;
-    right: 0;
-    top: 0;
-    bottom: 0;
+.learnmoreDiv:hover .arrow {
+     left: 23px;
+     right: 0;
+     top: 0;
+     bottom: 0;
+}
+.learnmoreDiv:hover .learnMore {
+     left: 10px;
+     right: 0;
+     top: 0;
+     bottom: 0;
 }
 
-.line2{
-    display: inline-block;
-    width: 260px;
-    vertical-align: middle;
-    
-
+.line2 {
+     display: inline-block;
+     width: 260px;
+     vertical-align: middle;
 }
-
-
 
 /* mission section styles */
 
-
-
 /* projects section */
 
-.projectsTxt{
-    line-height: 30px;
+.projectsTxt {
+     line-height: 30px;
 }
-.section2{  
-    background-color: #EFEFF6;
-    margin-bottom: 83px;
-      
+.section2 {
+     background-color: #efeff6;
+     margin-bottom: 83px;
 }
 /* projects section */
 
 /* banner section */
 
-.bannerSec{
-    margin: 0 auto;
-    padding-top: 80px;
-    position: relative;
-    
+.bannerSec {
+     margin: 0 auto;
+     padding-top: 80px;
+     position: relative;
 }
 
-.imgDiv{
-    display: flex;
-    
+.imgDiv {
+     display: flex;
 }
-.alexiImg{
-    width: 50%;
+.alexiImg {
+     width: 50%;
 }
-.h1{
-    text-align: center;
-    color: white;
-    font-size: 40px;
+.h1 {
+     text-align: center;
+     color: white;
+     font-size: 40px;
 }
-.h1:first-child{
-    padding-top: 155px;
-}
-
-.vakhtangImg{
-    width: 50%;
-}
-.bnrText{
-    position: absolute;
-    left: 0;
-    top:0;
-    right: 0;
-    bottom: 0;
-
-
-}
-.bnrLine{
-    width: 1046px;
-
+.h1:first-child {
+     padding-top: 155px;
 }
 
-.infoUl{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.vakhtangImg {
+     width: 50%;
 }
-.infoLink{
-    font-size: 40px;
-    padding: 20px;
-    
+.bnrText {
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
 }
-.infoLink:hover{
-    text-decoration: underline 1px;
+.bnrLine {
+     width: 1046px;
+}
+
+.infoUl {
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 40px;
+     padding-bottom: 40px;
+}
+.infoLink {
+     font-size: 40px;
+     padding: 20px;
+}
+.infoLink:hover {
+     text-decoration: underline 1px;
 }
 
 /* banner section */
-
-
-
